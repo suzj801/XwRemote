@@ -2,6 +2,7 @@
 using System;
 using System.Drawing;
 using System.IO;
+using System.Resources;
 using System.Windows.Forms;
 using XwMaxLib.Extensions;
 using XwMaxLib.Extentions;
@@ -24,6 +25,7 @@ namespace XwRemote.Settings
         private void OnLoad(object sender, EventArgs e)
         {
             LoadFtpDataType(server.FtpDataType);
+            ResourceManager rm = new ResourceManager(typeof(IOSettings));
 
             NameBox.Text = server.Name;
             HostBox.Text = server.Host;
@@ -40,7 +42,7 @@ namespace XwRemote.Settings
             {
                 case ServerType.FTP:
                 {
-                    Text = "FTP Settings";
+                    Text = rm.GetString("FTPSettings");
                     dialogHeader1.HeaderImage = XwRemote.Properties.Resources.ftp;
                     if (server.Port == 21 || server.Port == 0)
                     {
@@ -57,7 +59,7 @@ namespace XwRemote.Settings
                 break;
                 case ServerType.SFTP:
                 {
-                    Text = "SFTP Settings";
+                    Text = rm.GetString("SFTPSettings");
                     dialogHeader1.HeaderTitle = dialogHeader1.HeaderTitle.Replace("FTP", "SFTP");
                     dialogHeader1.HeaderDescription = dialogHeader1.HeaderDescription.Replace("FTP", "SFTP");
                     dialogHeader1.HeaderImage = XwRemote.Properties.Resources.sftp;
@@ -82,7 +84,7 @@ namespace XwRemote.Settings
                 break;
                 case ServerType.AWSS3:
                 {
-                    Text = "AWS S3 Settings";
+                    Text = rm.GetString("AWSS3Settings");
                     dialogHeader1.HeaderTitle = dialogHeader1.HeaderTitle.Replace("FTP", "AWS S3");
                     dialogHeader1.HeaderDescription = dialogHeader1.HeaderDescription.Replace("FTP", "AWS S3");
                     dialogHeader1.HeaderImage = XwRemote.Properties.Resources.s3;
@@ -101,7 +103,7 @@ namespace XwRemote.Settings
                 break;
                 case ServerType.AZUREFILE:
                 {
-                    Text = "Azure File Settings";
+                    Text = rm.GetString("AzureFileSettings");
                     dialogHeader1.HeaderTitle = dialogHeader1.HeaderTitle.Replace("FTP", "Azure File");
                     dialogHeader1.HeaderDescription = dialogHeader1.HeaderDescription.Replace("FTP", "Azure File");
                     dialogHeader1.HeaderImage = XwRemote.Properties.Resources.azure;

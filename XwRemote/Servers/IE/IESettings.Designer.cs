@@ -30,6 +30,7 @@ namespace XwRemote.Servers
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(IESettings));
             this.dialogHeader1 = new XwMaxLib.UI.DialogHeader();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -60,103 +61,70 @@ namespace XwRemote.Servers
             // 
             // dialogHeader1
             // 
-            this.dialogHeader1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dialogHeader1.HeaderDescription = "Connection settings for Web Console Devices";
+            this.dialogHeader1.HeaderTitle = "Internet Explorer";
+            resources.ApplyResources(this.dialogHeader1, "dialogHeader1");
             this.dialogHeader1.Gradient1 = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(239)))), ((int)(((byte)(255)))));
             this.dialogHeader1.Gradient2 = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(222)))), ((int)(((byte)(255)))));
             this.dialogHeader1.Gradient3 = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(209)))), ((int)(((byte)(255)))));
             this.dialogHeader1.Gradient4 = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(219)))), ((int)(((byte)(255)))));
-            this.dialogHeader1.HeaderDescription = "Connection settings for Web Console Devices";
             this.dialogHeader1.HeaderImage = global::XwRemote.Properties.Resources.IE;
-            this.dialogHeader1.HeaderTitle = "Internet Explorer";
-            this.dialogHeader1.Location = new System.Drawing.Point(0, 0);
             this.dialogHeader1.Name = "dialogHeader1";
-            this.dialogHeader1.Size = new System.Drawing.Size(395, 50);
-            this.dialogHeader1.TabIndex = 8;
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(13, 138);
+            resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(53, 13);
-            this.label5.TabIndex = 12;
-            this.label5.Text = "Password";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(13, 112);
+            resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(55, 13);
-            this.label4.TabIndex = 11;
-            this.label4.Text = "Username";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 86);
+            resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(27, 13);
-            this.label3.TabIndex = 10;
-            this.label3.Text = "Link";
             // 
             // PassBox
             // 
-            this.PassBox.Location = new System.Drawing.Point(70, 135);
+            resources.ApplyResources(this.PassBox, "PassBox");
             this.PassBox.Name = "PassBox";
-            this.PassBox.Size = new System.Drawing.Size(295, 20);
-            this.PassBox.TabIndex = 3;
             this.PassBox.UseSystemPasswordChar = true;
             this.PassBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PassBox_KeyDown);
             // 
             // UserBox
             // 
-            this.UserBox.Location = new System.Drawing.Point(70, 109);
+            resources.ApplyResources(this.UserBox, "UserBox");
             this.UserBox.Name = "UserBox";
-            this.UserBox.Size = new System.Drawing.Size(317, 20);
-            this.UserBox.TabIndex = 2;
             // 
             // HostBox
             // 
-            this.HostBox.Location = new System.Drawing.Point(70, 83);
+            resources.ApplyResources(this.HostBox, "HostBox");
             this.HostBox.Name = "HostBox";
-            this.HostBox.Size = new System.Drawing.Size(317, 20);
-            this.HostBox.TabIndex = 1;
             // 
             // NameBox
             // 
-            this.NameBox.Location = new System.Drawing.Point(70, 56);
+            resources.ApplyResources(this.NameBox, "NameBox");
             this.NameBox.Name = "NameBox";
-            this.NameBox.Size = new System.Drawing.Size(317, 20);
-            this.NameBox.TabIndex = 0;
             // 
             // btnCancel
             // 
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Location = new System.Drawing.Point(311, 10);
+            resources.ApplyResources(this.btnCancel, "btnCancel");
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
-            this.btnCancel.TabIndex = 2;
-            this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 59);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 9;
-            this.label2.Text = "Name";
             // 
             // btnOK
             // 
-            this.btnOK.Location = new System.Drawing.Point(230, 10);
+            resources.ApplyResources(this.btnOK, "btnOK");
             this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(75, 23);
-            this.btnOK.TabIndex = 1;
-            this.btnOK.Text = "OK";
             this.btnOK.UseVisualStyleBackColor = true;
             this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
@@ -167,135 +135,90 @@ namespace XwRemote.Servers
             this.dividerPanel1.Controls.Add(this.btnCancel);
             this.dividerPanel1.Controls.Add(this.btnOK);
             this.dividerPanel1.Controls.Add(this.IsFavorite);
-            this.dividerPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dividerPanel1.Location = new System.Drawing.Point(0, 373);
+            resources.ApplyResources(this.dividerPanel1, "dividerPanel1");
             this.dividerPanel1.Name = "dividerPanel1";
-            this.dividerPanel1.Size = new System.Drawing.Size(395, 45);
-            this.dividerPanel1.TabIndex = 16;
             // 
             // IsFavorite
             // 
-            this.IsFavorite.AutoSize = true;
-            this.IsFavorite.Location = new System.Drawing.Point(15, 14);
+            resources.ApplyResources(this.IsFavorite, "IsFavorite");
             this.IsFavorite.Name = "IsFavorite";
-            this.IsFavorite.Size = new System.Drawing.Size(143, 17);
-            this.IsFavorite.TabIndex = 0;
-            this.IsFavorite.Text = "Place on Favorites menu";
             this.IsFavorite.UseVisualStyleBackColor = true;
             // 
             // checkUseHtml
             // 
-            this.checkUseHtml.AutoSize = true;
-            this.checkUseHtml.Location = new System.Drawing.Point(70, 160);
+            resources.ApplyResources(this.checkUseHtml, "checkUseHtml");
             this.checkUseHtml.Name = "checkUseHtml";
-            this.checkUseHtml.Size = new System.Drawing.Size(185, 17);
-            this.checkUseHtml.TabIndex = 4;
-            this.checkUseHtml.Text = "This host use HTML form for login";
             this.checkUseHtml.UseVisualStyleBackColor = true;
             this.checkUseHtml.CheckedChanged += new System.EventHandler(this.checkUseHtml_CheckedChanged);
             // 
             // userIDbox
             // 
-            this.userIDbox.Location = new System.Drawing.Point(158, 184);
+            resources.ApplyResources(this.userIDbox, "userIDbox");
             this.userIDbox.Name = "userIDbox";
-            this.userIDbox.Size = new System.Drawing.Size(229, 20);
-            this.userIDbox.TabIndex = 5;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 187);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(135, 13);
-            this.label1.TabIndex = 13;
-            this.label1.Text = "HTML ID of Username Box";
             // 
             // passIDbox
             // 
-            this.passIDbox.Location = new System.Drawing.Point(158, 210);
+            resources.ApplyResources(this.passIDbox, "passIDbox");
             this.passIDbox.Name = "passIDbox";
-            this.passIDbox.Size = new System.Drawing.Size(229, 20);
-            this.passIDbox.TabIndex = 6;
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 213);
+            resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(133, 13);
-            this.label6.TabIndex = 14;
-            this.label6.Text = "HTML ID of Password Box";
             // 
             // loginIDbox
             // 
-            this.loginIDbox.Location = new System.Drawing.Point(158, 236);
+            resources.ApplyResources(this.loginIDbox, "loginIDbox");
             this.loginIDbox.Name = "loginIDbox";
-            this.loginIDbox.Size = new System.Drawing.Size(229, 20);
-            this.loginIDbox.TabIndex = 7;
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(12, 239);
+            resources.ApplyResources(this.label7, "label7");
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(126, 13);
-            this.label7.TabIndex = 15;
-            this.label7.Text = "HTML ID of Login Button";
             // 
             // tabColorBox
             // 
             this.tabColorBox.Extended = true;
             this.tabColorBox.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.tabColorBox.Location = new System.Drawing.Point(70, 345);
+            resources.ApplyResources(this.tabColorBox, "tabColorBox");
             this.tabColorBox.Name = "tabColorBox";
             this.tabColorBox.SelectedColor = System.Drawing.Color.LightSkyBlue;
-            this.tabColorBox.Size = new System.Drawing.Size(70, 23);
-            this.tabColorBox.TabIndex = 25;
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(12, 350);
+            resources.ApplyResources(this.label8, "label8");
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(52, 13);
-            this.label8.TabIndex = 24;
-            this.label8.Text = "Tab color";
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(12, 261);
+            resources.ApplyResources(this.label9, "label9");
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(35, 13);
-            this.label9.TabIndex = 27;
-            this.label9.Text = "Notes";
             // 
             // NotesBox
             // 
             this.NotesBox.AcceptsReturn = true;
-            this.NotesBox.Location = new System.Drawing.Point(70, 262);
-            this.NotesBox.Multiline = true;
+            resources.ApplyResources(this.NotesBox, "NotesBox");
             this.NotesBox.Name = "NotesBox";
-            this.NotesBox.Size = new System.Drawing.Size(317, 77);
-            this.NotesBox.TabIndex = 26;
             // 
             // buttonShowPassword
             // 
             this.buttonShowPassword.Image = global::XwRemote.Properties.Resources.eye;
-            this.buttonShowPassword.Location = new System.Drawing.Point(365, 134);
+            resources.ApplyResources(this.buttonShowPassword, "buttonShowPassword");
             this.buttonShowPassword.Name = "buttonShowPassword";
-            this.buttonShowPassword.Size = new System.Drawing.Size(23, 22);
-            this.buttonShowPassword.TabIndex = 28;
             this.buttonShowPassword.UseVisualStyleBackColor = true;
             this.buttonShowPassword.Click += new System.EventHandler(this.buttonShowPassword_Click);
             // 
             // IESettings
             // 
             this.AcceptButton = this.btnOK;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnCancel;
-            this.ClientSize = new System.Drawing.Size(395, 418);
             this.Controls.Add(this.buttonShowPassword);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.NotesBox);
@@ -323,8 +246,6 @@ namespace XwRemote.Servers
             this.MinimizeBox = false;
             this.Name = "IESettings";
             this.ShowInTaskbar = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "IE Settings";
             this.Load += new System.EventHandler(this.OnLoad);
             this.dividerPanel1.ResumeLayout(false);
             this.dividerPanel1.PerformLayout();

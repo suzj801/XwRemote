@@ -94,7 +94,7 @@ namespace XwRemote
         //*************************************************************************************************************
         private void Main_Shown(object sender, EventArgs e)
         {
-            ThreadPool.QueueUserWorkItem(new WaitCallback(ThreadCheckUpdates), this);
+            //ThreadPool.QueueUserWorkItem(new WaitCallback(ThreadCheckUpdates), this);
         }
 
         //*************************************************************************************************************

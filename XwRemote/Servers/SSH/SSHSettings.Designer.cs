@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SSHSettings));
             this.dialogHeader1 = new XwMaxLib.UI.DialogHeader();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnOK = new System.Windows.Forms.Button();
@@ -58,114 +59,77 @@
             // 
             // dialogHeader1
             // 
-            this.dialogHeader1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dialogHeader1.HeaderDescription = "Connecting settings for SSH server";
+            this.dialogHeader1.HeaderTitle = "SSH";
+            resources.ApplyResources(this.dialogHeader1, "dialogHeader1");
             this.dialogHeader1.Gradient1 = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(239)))), ((int)(((byte)(255)))));
             this.dialogHeader1.Gradient2 = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(222)))), ((int)(((byte)(255)))));
             this.dialogHeader1.Gradient3 = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(209)))), ((int)(((byte)(255)))));
             this.dialogHeader1.Gradient4 = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(219)))), ((int)(((byte)(255)))));
-            this.dialogHeader1.HeaderDescription = "Connecting settings for SSH server";
             this.dialogHeader1.HeaderImage = global::XwRemote.Properties.Resources.ssh;
-            this.dialogHeader1.HeaderTitle = "SSH";
-            this.dialogHeader1.Location = new System.Drawing.Point(0, 0);
             this.dialogHeader1.Name = "dialogHeader1";
-            this.dialogHeader1.Size = new System.Drawing.Size(391, 50);
-            this.dialogHeader1.TabIndex = 7;
             // 
             // btnCancel
             // 
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Location = new System.Drawing.Point(307, 10);
+            resources.ApplyResources(this.btnCancel, "btnCancel");
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
-            this.btnCancel.TabIndex = 2;
-            this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnOK
             // 
-            this.btnOK.Location = new System.Drawing.Point(226, 10);
+            resources.ApplyResources(this.btnOK, "btnOK");
             this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(75, 23);
-            this.btnOK.TabIndex = 1;
-            this.btnOK.Text = "OK";
             this.btnOK.UseVisualStyleBackColor = true;
             this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(8, 138);
+            resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(53, 13);
-            this.label5.TabIndex = 11;
-            this.label5.Text = "Password";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(8, 112);
+            resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(55, 13);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "Username";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(7, 86);
+            resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(29, 13);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "Host";
             // 
             // PassBox
             // 
-            this.PassBox.Location = new System.Drawing.Point(65, 135);
+            resources.ApplyResources(this.PassBox, "PassBox");
             this.PassBox.Name = "PassBox";
-            this.PassBox.Size = new System.Drawing.Size(293, 20);
-            this.PassBox.TabIndex = 3;
             this.PassBox.UseSystemPasswordChar = true;
             this.PassBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PassBox_KeyDown);
             // 
             // UserBox
             // 
-            this.UserBox.Location = new System.Drawing.Point(65, 109);
+            resources.ApplyResources(this.UserBox, "UserBox");
             this.UserBox.Name = "UserBox";
-            this.UserBox.Size = new System.Drawing.Size(317, 20);
-            this.UserBox.TabIndex = 2;
             // 
             // HostBox
             // 
-            this.HostBox.Location = new System.Drawing.Point(65, 83);
+            resources.ApplyResources(this.HostBox, "HostBox");
             this.HostBox.Name = "HostBox";
-            this.HostBox.Size = new System.Drawing.Size(317, 20);
-            this.HostBox.TabIndex = 1;
             // 
             // NameBox
             // 
-            this.NameBox.Location = new System.Drawing.Point(65, 56);
+            resources.ApplyResources(this.NameBox, "NameBox");
             this.NameBox.Name = "NameBox";
-            this.NameBox.Size = new System.Drawing.Size(317, 20);
-            this.NameBox.TabIndex = 0;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(7, 59);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "Name";
             // 
             // IsFavorite
             // 
-            this.IsFavorite.AutoSize = true;
-            this.IsFavorite.Location = new System.Drawing.Point(11, 14);
+            resources.ApplyResources(this.IsFavorite, "IsFavorite");
             this.IsFavorite.Name = "IsFavorite";
-            this.IsFavorite.Size = new System.Drawing.Size(143, 17);
-            this.IsFavorite.TabIndex = 0;
-            this.IsFavorite.Text = "Place on Favorites menu";
             this.IsFavorite.UseVisualStyleBackColor = true;
             // 
             // dividerPanel1
@@ -175,139 +139,90 @@
             this.dividerPanel1.Controls.Add(this.IsFavorite);
             this.dividerPanel1.Controls.Add(this.btnCancel);
             this.dividerPanel1.Controls.Add(this.btnOK);
-            this.dividerPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dividerPanel1.Location = new System.Drawing.Point(0, 427);
+            resources.ApplyResources(this.dividerPanel1, "dividerPanel1");
             this.dividerPanel1.Name = "dividerPanel1";
-            this.dividerPanel1.Size = new System.Drawing.Size(391, 45);
-            this.dividerPanel1.TabIndex = 13;
             // 
             // DefaultPort
             // 
-            this.DefaultPort.AutoSize = true;
+            resources.ApplyResources(this.DefaultPort, "DefaultPort");
             this.DefaultPort.Checked = true;
             this.DefaultPort.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.DefaultPort.Location = new System.Drawing.Point(65, 163);
             this.DefaultPort.Name = "DefaultPort";
-            this.DefaultPort.Size = new System.Drawing.Size(60, 17);
-            this.DefaultPort.TabIndex = 4;
-            this.DefaultPort.Text = "Default";
             this.DefaultPort.UseVisualStyleBackColor = true;
             this.DefaultPort.CheckedChanged += new System.EventHandler(this.DefaultPort_CheckedChanged);
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(7, 164);
+            resources.ApplyResources(this.label8, "label8");
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(26, 13);
-            this.label8.TabIndex = 12;
-            this.label8.Text = "Port";
             // 
             // PortBox
             // 
-            this.PortBox.Enabled = false;
-            this.PortBox.Location = new System.Drawing.Point(131, 161);
+            resources.ApplyResources(this.PortBox, "PortBox");
             this.PortBox.Name = "PortBox";
-            this.PortBox.Size = new System.Drawing.Size(251, 20);
-            this.PortBox.TabIndex = 5;
             // 
             // checkSSH1
             // 
-            this.checkSSH1.AutoSize = true;
-            this.checkSSH1.Location = new System.Drawing.Point(65, 187);
+            resources.ApplyResources(this.checkSSH1, "checkSSH1");
             this.checkSSH1.Name = "checkSSH1";
-            this.checkSSH1.Size = new System.Drawing.Size(119, 17);
-            this.checkSSH1.TabIndex = 6;
-            this.checkSSH1.Text = "Connect with SSH1";
             this.checkSSH1.UseVisualStyleBackColor = true;
             // 
             // tabColorBox
             // 
             this.tabColorBox.Extended = true;
             this.tabColorBox.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.tabColorBox.Location = new System.Drawing.Point(65, 398);
+            resources.ApplyResources(this.tabColorBox, "tabColorBox");
             this.tabColorBox.Name = "tabColorBox";
             this.tabColorBox.SelectedColor = System.Drawing.Color.LightSkyBlue;
-            this.tabColorBox.Size = new System.Drawing.Size(70, 23);
-            this.tabColorBox.TabIndex = 25;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(7, 403);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 13);
-            this.label1.TabIndex = 24;
-            this.label1.Text = "Tab color";
             // 
             // label9
             // 
-            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(8, 332);
+            resources.ApplyResources(this.label9, "label9");
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(35, 13);
-            this.label9.TabIndex = 27;
-            this.label9.Text = "Notes";
             // 
             // NotesBox
             // 
             this.NotesBox.AcceptsReturn = true;
-            this.NotesBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.NotesBox.Location = new System.Drawing.Point(65, 332);
-            this.NotesBox.Multiline = true;
+            resources.ApplyResources(this.NotesBox, "NotesBox");
             this.NotesBox.Name = "NotesBox";
-            this.NotesBox.Size = new System.Drawing.Size(317, 62);
-            this.NotesBox.TabIndex = 26;
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(7, 237);
+            resources.ApplyResources(this.label7, "label7");
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(43, 13);
-            this.label7.TabIndex = 33;
-            this.label7.Text = "SshKey";
             // 
             // buttonOpenSshKey
             // 
-            this.buttonOpenSshKey.Location = new System.Drawing.Point(16, 266);
+            resources.ApplyResources(this.buttonOpenSshKey, "buttonOpenSshKey");
             this.buttonOpenSshKey.Name = "buttonOpenSshKey";
-            this.buttonOpenSshKey.Size = new System.Drawing.Size(26, 23);
-            this.buttonOpenSshKey.TabIndex = 34;
-            this.buttonOpenSshKey.Text = "...";
             this.buttonOpenSshKey.UseVisualStyleBackColor = true;
             this.buttonOpenSshKey.Click += new System.EventHandler(this.buttonOpenSshKey_Click);
             // 
             // SshKeyBox
             // 
             this.SshKeyBox.AcceptsReturn = true;
-            this.SshKeyBox.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SshKeyBox.Location = new System.Drawing.Point(65, 237);
-            this.SshKeyBox.Multiline = true;
+            resources.ApplyResources(this.SshKeyBox, "SshKeyBox");
             this.SshKeyBox.Name = "SshKeyBox";
-            this.SshKeyBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.SshKeyBox.Size = new System.Drawing.Size(317, 90);
-            this.SshKeyBox.TabIndex = 36;
-            this.SshKeyBox.WordWrap = false;
             // 
             // buttonShowPassword
             // 
             this.buttonShowPassword.Image = global::XwRemote.Properties.Resources.eye;
-            this.buttonShowPassword.Location = new System.Drawing.Point(359, 134);
+            resources.ApplyResources(this.buttonShowPassword, "buttonShowPassword");
             this.buttonShowPassword.Name = "buttonShowPassword";
-            this.buttonShowPassword.Size = new System.Drawing.Size(23, 22);
-            this.buttonShowPassword.TabIndex = 40;
             this.buttonShowPassword.UseVisualStyleBackColor = true;
             this.buttonShowPassword.Click += new System.EventHandler(this.buttonShowPassword_Click);
             // 
             // SSHSettings
             // 
             this.AcceptButton = this.btnOK;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnCancel;
-            this.ClientSize = new System.Drawing.Size(391, 472);
             this.Controls.Add(this.buttonShowPassword);
             this.Controls.Add(this.SshKeyBox);
             this.Controls.Add(this.buttonOpenSshKey);
@@ -336,8 +251,6 @@
             this.Name = "SSHSettings";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "SSH Settings";
             this.Load += new System.EventHandler(this.OnLoad);
             this.dividerPanel1.ResumeLayout(false);
             this.dividerPanel1.PerformLayout();

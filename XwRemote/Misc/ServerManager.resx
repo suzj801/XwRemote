@@ -117,8 +117,929 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="copyAsVNC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewFTP.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="editServerToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F2</value>
+  </data>
+  <data name="&gt;&gt;NewAzureFile.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="NewS3.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="editServerToolStripMenuItem.Text" xml:space="preserve">
+    <value>Edit Server</value>
+  </data>
+  <data name="makeCopyToolStripMenuItem.Text" xml:space="preserve">
+    <value>Make Copy as...</value>
+  </data>
+  <data name="&gt;&gt;addGroupToolStripMenuItem.Name" xml:space="preserve">
+    <value>addGroupToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;copyAsAWSS3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="copyAsSSH.Text" xml:space="preserve">
+    <value>SSH</value>
+  </data>
+  <data name="renameGroupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="&gt;&gt;DeleteServer.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="treeServers.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;editServerToolStripMenuItem.Name" xml:space="preserve">
+    <value>editServerToolStripMenuItem</value>
+  </data>
+  <data name="newIE.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;EditServer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dialogHeader1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>572, 50</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.ContentPanel.Name" xml:space="preserve">
+    <value>toolStripContainer1.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;copyAsRDP.Name" xml:space="preserve">
+    <value>copyAsRDP</value>
+  </data>
+  <data name="ConnectBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="copyAsSSH.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="&gt;&gt;NewVNC.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewFTP.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="newSSH.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 102</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NewAzureFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 209</value>
+  </data>
+  <data name="&gt;&gt;deleteServerToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="copyAsRDP.Text" xml:space="preserve">
+    <value>RDP</value>
+  </data>
+  <data name="&gt;&gt;tabStrip1.Parent" xml:space="preserve">
+    <value>toolStripContainer1.TopToolStripPanel</value>
+  </data>
+  <data name="NewAzureFile.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.TopToolStripPanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="copyAsIE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="newSSH.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="NewRDP.Text" xml:space="preserve">
+    <value>New RDP</value>
+  </data>
+  <data name="&gt;&gt;ImportServer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="deleteServerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="&gt;&gt;copyAsVNC.Name" xml:space="preserve">
+    <value>copyAsVNC</value>
+  </data>
+  <data name="&gt;&gt;makeCopyToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;addToFavoritesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.Name" xml:space="preserve">
+    <value>toolStripContainer1</value>
+  </data>
+  <data name="&gt;&gt;addGroupToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DeleteServer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="dialogHeader1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;ImportServer.Name" xml:space="preserve">
+    <value>ImportServer</value>
+  </data>
+  <data name="&gt;&gt;EditServer.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;tabStrip1.Type" xml:space="preserve">
+    <value>Messir.Windows.Forms.TabStrip, XwMaxLib, Version=5.0.0.1, Culture=neutral, PublicKeyToken=d5cba97d4ac1f01c</value>
+  </data>
+  <data name="toolStripContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="textSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 21</value>
+  </data>
+  <data name="ConnectBtn.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ImportServer.Text" xml:space="preserve">
+    <value>Import Server</value>
+  </data>
+  <data name="&gt;&gt;NewVNC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.LeftToolStripPanel.Parent" xml:space="preserve">
+    <value>toolStripContainer1</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.LeftToolStripPanel.Name" xml:space="preserve">
+    <value>toolStripContainer1.LeftToolStripPanel</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 6</value>
+  </data>
+  <data name="EditServer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.BottomToolStripPanel.Parent" xml:space="preserve">
+    <value>toolStripContainer1</value>
+  </data>
+  <data name="copyAsSFTP.Text" xml:space="preserve">
+    <value>SFTP</value>
+  </data>
+  <data name="NewSFTP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 155</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NewFTP.Text" xml:space="preserve">
+    <value>New FTP</value>
+  </data>
+  <data name="NewAzureFile.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="FilterOrdered.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;FilterFavorites.Name" xml:space="preserve">
+    <value>FilterFavorites</value>
+  </data>
+  <data name="toolStripContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 52</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;dialogHeader1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="copyAsAzureFile.Text" xml:space="preserve">
+    <value>Azure File</value>
+  </data>
+  <data name="DeleteServer.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;deleteGroupToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;copyAsIE.Name" xml:space="preserve">
+    <value>copyAsIE</value>
+  </data>
+  <data name="NewFTP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 128</value>
+  </data>
+  <data name="&gt;&gt;ExportServer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.TopToolStripPanel.Name" xml:space="preserve">
+    <value>toolStripContainer1.TopToolStripPanel</value>
+  </data>
+  <data name="textSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 558</value>
+  </data>
+  <data name="&gt;&gt;NewRDP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="copyAsAWSS3.Text" xml:space="preserve">
+    <value>AWS S3</value>
+  </data>
+  <data name="&gt;&gt;EditServer.Name" xml:space="preserve">
+    <value>EditServer</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.RightToolStripPanel.Name" xml:space="preserve">
+    <value>toolStripContainer1.RightToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.LeftToolStripPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="editServerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="newSSH.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="newSQL.Text" xml:space="preserve">
+    <value>New SQL</value>
+  </data>
+  <data name="&gt;&gt;textSearch.Name" xml:space="preserve">
+    <value>textSearch</value>
+  </data>
+  <data name="&gt;&gt;newSQL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="makeCopyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="newIE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 262</value>
+  </data>
+  <data name="toolStripContainer1.Text" xml:space="preserve">
+    <value>toolStripContainer1</value>
+  </data>
+  <data name="&gt;&gt;EditServer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="newSSH.Text" xml:space="preserve">
+    <value>New SSH</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.TopToolStripPanel.Parent" xml:space="preserve">
+    <value>toolStripContainer1</value>
+  </data>
+  <data name="FilterFavorites.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 25</value>
+  </data>
+  <data name="&gt;&gt;newSQL.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ExportServer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="NewS3.Text" xml:space="preserve">
+    <value>New AWS S3</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
+    <value>toolStripSeparator3</value>
+  </data>
+  <data name="&gt;&gt;copyAsIE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NewS3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 21</value>
+  </data>
+  <data name="&gt;&gt;newIE.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="NewVNC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 21</value>
+  </data>
+  <data name="ExportServer.Text" xml:space="preserve">
+    <value>Export Server</value>
+  </data>
+  <data name="&gt;&gt;ExportServer.Name" xml:space="preserve">
+    <value>ExportServer</value>
+  </data>
+  <data name="&gt;&gt;dialogHeader1.Type" xml:space="preserve">
+    <value>XwMaxLib.UI.DialogHeader, XwMaxLib, Version=5.0.0.1, Culture=neutral, PublicKeyToken=d5cba97d4ac1f01c</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="copyAsAzureFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.ContentPanel.Parent" xml:space="preserve">
+    <value>toolStripContainer1</value>
+  </data>
+  <data name="FilterOrdered.Text" xml:space="preserve">
+    <value>Ordered</value>
+  </data>
+  <data name="copyAsIE.Text" xml:space="preserve">
+    <value>IE</value>
+  </data>
+  <data name="&gt;&gt;deleteGroupToolStripMenuItem.Name" xml:space="preserve">
+    <value>deleteGroupToolStripMenuItem</value>
+  </data>
+  <data name="deleteServerToolStripMenuItem.Text" xml:space="preserve">
+    <value>Delete Server</value>
+  </data>
+  <data name="&gt;&gt;copyAsAWSS3.Name" xml:space="preserve">
+    <value>copyAsAWSS3</value>
+  </data>
+  <data name="NewS3.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="treeServers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 472</value>
+  </data>
+  <data name="&gt;&gt;tabStrip1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pictureBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;NewFTP.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="FilterGrouped.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 25</value>
+  </data>
+  <data name="newSQL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 289</value>
+  </data>
+  <data name="renameGroupToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F2</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.BottomToolStripPanel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Server Manager</value>
+  </data>
+  <data name="&gt;&gt;renameGroupToolStripMenuItem.Name" xml:space="preserve">
+    <value>renameGroupToolStripMenuItem</value>
+  </data>
+  <data name="toolStripContainer1.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 472</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.ContentPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripContentPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="deleteGroupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="EditServer.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="newSQL.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="NewAzureFile.Text" xml:space="preserve">
+    <value>New Azure File</value>
+  </data>
+  <data name="NewSFTP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 21</value>
+  </data>
+  <data name="&gt;&gt;copyAsSFTP.Name" xml:space="preserve">
+    <value>copyAsSFTP</value>
+  </data>
+  <data name="&gt;&gt;NewRDP.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="copyAsVNC.Text" xml:space="preserve">
+    <value>VNC</value>
+  </data>
+  <data name="DeleteServer.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;FilterGrouped.Name" xml:space="preserve">
+    <value>FilterGrouped</value>
+  </data>
+  <data name="NewRDP.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="newSSH.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 21</value>
+  </data>
+  <data name="toolStripContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 497</value>
+  </data>
+  <data name="NewAzureFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 21</value>
+  </data>
+  <data name="NewVNC.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="newSQL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 21</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>500, 372</value>
+  </data>
+  <data name="FilterGrouped.Text" xml:space="preserve">
+    <value>Grouped</value>
+  </data>
+  <data name="&gt;&gt;tabStrip1.Name" xml:space="preserve">
+    <value>tabStrip1</value>
+  </data>
+  <data name="&gt;&gt;NewS3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.BottomToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EditServer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 21</value>
+  </data>
+  <data name="NewAzureFile.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="NewFTP.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="DeleteServer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 21</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.RightToolStripPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabStrip1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="newIE.Text" xml:space="preserve">
+    <value>New IE</value>
+  </data>
+  <data name="&gt;&gt;copyAsSSH.Name" xml:space="preserve">
+    <value>copyAsSSH</value>
+  </data>
+  <data name="NewRDP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 75</value>
+  </data>
+  <data name="copyAsRDP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="newSSH.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;newIE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewVNC.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;copyAsVNC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="newIE.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 18</value>
+  </data>
+  <data name="&gt;&gt;copyAsFTP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EditServer.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="dialogHeader1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="newSSH.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;newSSH.Name" xml:space="preserve">
+    <value>newSSH</value>
+  </data>
+  <data name="&gt;&gt;contextGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewSFTP.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="newSQL.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;copyAsAzureFile.Name" xml:space="preserve">
+    <value>copyAsAzureFile</value>
+  </data>
+  <data name="&gt;&gt;dialogHeader1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="deleteGroupToolStripMenuItem.Text" xml:space="preserve">
+    <value>Delete Group</value>
+  </data>
+  <data name="&gt;&gt;treeServers.Parent" xml:space="preserve">
+    <value>toolStripContainer1.ContentPanel</value>
+  </data>
+  <data name="ConnectBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;treeServers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="contextGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 92</value>
+  </data>
+  <data name="&gt;&gt;FilterFavorites.Type" xml:space="preserve">
+    <value>Messir.Windows.Forms.TabStripButton, XwMaxLib, Version=5.0.0.1, Culture=neutral, PublicKeyToken=d5cba97d4ac1f01c</value>
+  </data>
+  <data name="addGroupToolStripMenuItem.Text" xml:space="preserve">
+    <value>Add Group</value>
+  </data>
+  <data name="DeleteServer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 472</value>
+  </data>
+  <data name="tabStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="NewVNC.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="EditServer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 498</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ServerManager</value>
+  </data>
+  <data name="&gt;&gt;DeleteServer.Name" xml:space="preserve">
+    <value>DeleteServer</value>
+  </data>
+  <data name="&gt;&gt;textSearch.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;newSQL.Name" xml:space="preserve">
+    <value>newSQL</value>
+  </data>
+  <data name="EditServer.Text" xml:space="preserve">
+    <value>Edit Server</value>
+  </data>
+  <data name="NewS3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 182</value>
+  </data>
+  <data name="NewVNC.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="copyAsFTP.Text" xml:space="preserve">
+    <value>FTP</value>
+  </data>
+  <data name="copyAsFTP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="newIE.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;NewSFTP.Name" xml:space="preserve">
+    <value>NewSFTP</value>
+  </data>
+  <data name="&gt;&gt;DeleteServer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewSFTP.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;newIE.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="NewS3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="newSQL.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;deleteServerToolStripMenuItem.Name" xml:space="preserve">
+    <value>deleteServerToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;editServerToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;newSSH.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NewRDP.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="treeServers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;dialogHeader1.Name" xml:space="preserve">
+    <value>dialogHeader1</value>
+  </data>
+  <data name="newIE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 21</value>
+  </data>
+  <data name="DeleteServer.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.LeftToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>572, 587</value>
+  </data>
+  <data name="&gt;&gt;NewRDP.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;treeServers.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ConnectBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NewAzureFile.Name" xml:space="preserve">
+    <value>NewAzureFile</value>
+  </data>
+  <data name="textSearch.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;newSSH.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="treeServers.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;newSQL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NewS3.Name" xml:space="preserve">
+    <value>NewS3</value>
+  </data>
+  <data name="DeleteServer.Text" xml:space="preserve">
+    <value>Delete Server</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;copyAsSSH.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;newSSH.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="newSQL.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="tabStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 25</value>
+  </data>
+  <data name="&gt;&gt;NewS3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="FilterFavorites.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;textSearch.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="NewSFTP.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="toolStripContainer1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="ConnectBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 53</value>
+  </data>
+  <data name="NewS3.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;copyAsFTP.Name" xml:space="preserve">
+    <value>copyAsFTP</value>
+  </data>
+  <data name="&gt;&gt;textSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DeleteServer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;addToFavoritesToolStripMenuItem.Name" xml:space="preserve">
+    <value>addToFavoritesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;FilterOrdered.Name" xml:space="preserve">
+    <value>FilterOrdered</value>
+  </data>
+  <data name="&gt;&gt;NewS3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.BottomToolStripPanel.Name" xml:space="preserve">
+    <value>toolStripContainer1.BottomToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.ContentPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NewVNC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 235</value>
+  </data>
+  <data name="copyAsSFTP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="NewRDP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 21</value>
+  </data>
+  <data name="&gt;&gt;FilterOrdered.Type" xml:space="preserve">
+    <value>Messir.Windows.Forms.TabStripButton, XwMaxLib, Version=5.0.0.1, Culture=neutral, PublicKeyToken=d5cba97d4ac1f01c</value>
+  </data>
+  <data name="&gt;&gt;NewAzureFile.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;contextServer.Name" xml:space="preserve">
+    <value>contextServer</value>
+  </data>
+  <data name="&gt;&gt;contextGroup.Name" xml:space="preserve">
+    <value>contextGroup</value>
+  </data>
+  <data name="contextServer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 120</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 558</value>
+  </data>
+  <data name="addToFavoritesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Add to Favorites</value>
+  </data>
+  <data name="addToFavoritesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="&gt;&gt;newIE.Name" xml:space="preserve">
+    <value>newIE</value>
+  </data>
+  <data name="newIE.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;NewVNC.Name" xml:space="preserve">
+    <value>NewVNC</value>
+  </data>
+  <data name="FilterGrouped.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;ConnectBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;copyAsAzureFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dialogHeader1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;NewSFTP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="copyAsAWSS3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="NewSFTP.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="NewSFTP.Text" xml:space="preserve">
+    <value>New SFTP</value>
+  </data>
+  <data name="&gt;&gt;NewRDP.Name" xml:space="preserve">
+    <value>NewRDP</value>
+  </data>
+  <data name="&gt;&gt;NewFTP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;makeCopyToolStripMenuItem.Name" xml:space="preserve">
+    <value>makeCopyToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;renameGroupToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NewFTP.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.RightToolStripPanel.Parent" xml:space="preserve">
+    <value>toolStripContainer1</value>
+  </data>
+  <data name="&gt;&gt;contextServer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="addGroupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="renameGroupToolStripMenuItem.Text" xml:space="preserve">
+    <value>Rename Group</value>
+  </data>
+  <data name="EditServer.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;copyAsRDP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ImportServer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="NewRDP.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="ConnectBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 525</value>
+  </data>
+  <data name="&gt;&gt;NewFTP.Name" xml:space="preserve">
+    <value>NewFTP</value>
+  </data>
+  <data name="&gt;&gt;copyAsSFTP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NewSFTP.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ConnectBtn.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="FilterFavorites.Text" xml:space="preserve">
+    <value>Favorites</value>
+  </data>
+  <data name="&gt;&gt;FilterGrouped.Type" xml:space="preserve">
+    <value>Messir.Windows.Forms.TabStripButton, XwMaxLib, Version=5.0.0.1, Culture=neutral, PublicKeyToken=d5cba97d4ac1f01c</value>
+  </data>
+  <data name="ConnectBtn.Text" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="NewAzureFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="textSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.TopToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConnectBtn.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.RightToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FilterOrdered.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 25</value>
+  </data>
+  <data name="NewRDP.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;treeServers.Name" xml:space="preserve">
+    <value>treeServers</value>
+  </data>
+  <data name="treeServers.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;NewFTP.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;NewAzureFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NewSFTP.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;ConnectBtn.Name" xml:space="preserve">
+    <value>ConnectBtn</value>
+  </data>
+  <data name="NewVNC.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="NewFTP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 21</value>
+  </data>
+  <data name="NewVNC.Text" xml:space="preserve">
+    <value>New VNC</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>zh-CN</value>
+  </metadata>
   <metadata name="tabStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
   </metadata>
   <metadata name="contextGroup.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>111, 17</value>

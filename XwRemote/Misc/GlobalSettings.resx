@@ -117,6 +117,810 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;dialogHeader1.Name" xml:space="preserve">
+    <value>dialogHeader1</value>
+  </data>
+  <data name="&gt;&gt;tabSSH.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 13</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="checkCloseToTray.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;checkMinimizeToTray.Parent" xml:space="preserve">
+    <value>tabInterface</value>
+  </data>
+  <data name="&gt;&gt;butCancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;faTabStrip1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;checkMinimizeToTray.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butSetPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tabSSH.Name" xml:space="preserve">
+    <value>tabSSH</value>
+  </data>
+  <data name="&gt;&gt;butSetPassword.Name" xml:space="preserve">
+    <value>butSetPassword</value>
+  </data>
+  <data name="checkMinimizeToTray.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="dialogHeader1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>If you forget the master password, you will loose all the configuration</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;textFixedFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textFixedFolder.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="faTabStrip1.Text" xml:space="preserve">
+    <value>faTabStrip1</value>
+  </data>
+  <data name="&gt;&gt;radioLastUsed.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="radioDesktop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 18</value>
+  </data>
+  <data name="&gt;&gt;butRemovePass.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="radioFixed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 18</value>
+  </data>
+  <data name="&gt;&gt;textPasswordRepeat.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;butOK.Name" xml:space="preserve">
+    <value>butOK</value>
+  </data>
+  <data name="&gt;&gt;faTabStripItem1.Name" xml:space="preserve">
+    <value>faTabStripItem1</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 13</value>
+  </data>
+  <data name="&gt;&gt;butOK.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabSecurity.Parent" xml:space="preserve">
+    <value>faTabStrip1</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>424, 310</value>
+  </data>
+  <data name="&gt;&gt;butOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;faTabStripItem1.Type" xml:space="preserve">
+    <value>FarsiLibrary.Win.FATabStripItem, XwMaxLib, Version=5.0.0.1, Culture=neutral, PublicKeyToken=d5cba97d4ac1f01c</value>
+  </data>
+  <data name="&gt;&gt;checkMinimizeToTray.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radioFixed.Text" xml:space="preserve">
+    <value>Fixed</value>
+  </data>
+  <data name="&gt;&gt;tabInterface.Name" xml:space="preserve">
+    <value>tabInterface</value>
+  </data>
+  <data name="butRemovePass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 162</value>
+  </data>
+  <data name="textMasterPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 21</value>
+  </data>
+  <data name="faTabStripItem1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Global Settings</value>
+  </data>
+  <data name="&gt;&gt;checkCloseToTray.Name" xml:space="preserve">
+    <value>checkCloseToTray</value>
+  </data>
+  <data name="butCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="tabFTP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 203</value>
+  </data>
+  <data name="textFixedFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 40</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="radioMyComputer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 17</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;textMasterPassword.Parent" xml:space="preserve">
+    <value>tabSecurity</value>
+  </data>
+  <data name="tabSSH.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="butOK.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabFTP.Parent" xml:space="preserve">
+    <value>faTabStrip1</value>
+  </data>
+  <data name="butCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="butRemovePass.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;checkCloseToTray.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioMyComputer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnBrowseFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 13</value>
+  </data>
+  <data name="radioDesktop.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioMyComputer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabInterface.Parent" xml:space="preserve">
+    <value>faTabStrip1</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Repeat password</value>
+  </data>
+  <data name="radioLastUsed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 18</value>
+  </data>
+  <data name="tabInterface.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 203</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Be careful to remember the password</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;radioFixed.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;radioDesktop.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;faTabStrip1.Type" xml:space="preserve">
+    <value>FarsiLibrary.Win.FATabStrip, XwMaxLib, Version=5.0.0.1, Culture=neutral, PublicKeyToken=d5cba97d4ac1f01c</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="butOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>257, 9</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sshFontSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textFixedFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>tabSecurity</value>
+  </data>
+  <data name="&gt;&gt;textPasswordRepeat.Name" xml:space="preserve">
+    <value>textPasswordRepeat</value>
+  </data>
+  <data name="&gt;&gt;radioLastUsed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="butSetPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;dialogHeader1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;dialogHeader1.Type" xml:space="preserve">
+    <value>XwMaxLib.UI.DialogHeader, XwMaxLib, Version=5.0.0.1, Culture=neutral, PublicKeyToken=d5cba97d4ac1f01c</value>
+  </data>
+  <data name="&gt;&gt;butSetPassword.Parent" xml:space="preserve">
+    <value>tabSecurity</value>
+  </data>
+  <data name="&gt;&gt;tabSecurity.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;faTabStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;radioFixed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textPasswordRepeat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 21</value>
+  </data>
+  <data name="&gt;&gt;tabSSH.Type" xml:space="preserve">
+    <value>FarsiLibrary.Win.FATabStripItem, XwMaxLib, Version=5.0.0.1, Culture=neutral, PublicKeyToken=d5cba97d4ac1f01c</value>
+  </data>
+  <data name="radioDesktop.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;radioMyComputer.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="textPasswordRepeat.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;radioDesktop.Name" xml:space="preserve">
+    <value>radioDesktop</value>
+  </data>
+  <data name="checkBoxCorrectFocus.Text" xml:space="preserve">
+    <value>Try correct focus on putty. If you have problems with some keys on putty, try disable this.</value>
+  </data>
+  <data name="checkCloseToTray.Text" xml:space="preserve">
+    <value>Close to system tray</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="radioFixed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 17</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 65</value>
+  </data>
+  <data name="&gt;&gt;radioDesktop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;butOK.Parent" xml:space="preserve">
+    <value>dividerPanel1</value>
+  </data>
+  <data name="butRemovePass.Text" xml:space="preserve">
+    <value>Remove Password</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="faTabStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>424, 222</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>tabSecurity</value>
+  </data>
+  <data name="butRemovePass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 21</value>
+  </data>
+  <data name="butSetPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 162</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="faTabStrip1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;tabInterface.Type" xml:space="preserve">
+    <value>FarsiLibrary.Win.FATabStripItem, XwMaxLib, Version=5.0.0.1, Culture=neutral, PublicKeyToken=d5cba97d4ac1f01c</value>
+  </data>
+  <data name="btnBrowseFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 39</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textPasswordRepeat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 110</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>tabFTP</value>
+  </data>
+  <data name="&gt;&gt;btnBrowseFolder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;butRemovePass.Name" xml:space="preserve">
+    <value>butRemovePass</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="checkBoxCorrectFocus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 37</value>
+  </data>
+  <data name="radioMyComputer.Text" xml:space="preserve">
+    <value>My Computer</value>
+  </data>
+  <data name="&gt;&gt;textFixedFolder.Name" xml:space="preserve">
+    <value>textFixedFolder</value>
+  </data>
+  <data name="&gt;&gt;sshFontSize.Parent" xml:space="preserve">
+    <value>tabSSH</value>
+  </data>
+  <data name="&gt;&gt;butCancel.Parent" xml:space="preserve">
+    <value>dividerPanel1</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 54</value>
+  </data>
+  <data name="&gt;&gt;dialogHeader1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="sshFontSize.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabFTP.Name" xml:space="preserve">
+    <value>tabFTP</value>
+  </data>
+  <data name="tabSecurity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 201</value>
+  </data>
+  <data name="dialogHeader1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="checkCloseToTray.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 14</value>
+  </data>
+  <data name="radioDesktop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 17</value>
+  </data>
+  <data name="checkMinimizeToTray.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="faTabStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog1.Name" xml:space="preserve">
+    <value>folderBrowserDialog1</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="butSetPassword.Text" xml:space="preserve">
+    <value>Set Password</value>
+  </data>
+  <data name="btnBrowseFolder.Text" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="&gt;&gt;checkBoxCorrectFocus.Name" xml:space="preserve">
+    <value>checkBoxCorrectFocus</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Font Size</value>
+  </data>
+  <data name="butOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="checkCloseToTray.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;dividerPanel1.Name" xml:space="preserve">
+    <value>dividerPanel1</value>
+  </data>
+  <data name="checkMinimizeToTray.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 14</value>
+  </data>
+  <data name="&gt;&gt;btnBrowseFolder.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="radioLastUsed.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;checkCloseToTray.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textPasswordRepeat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dialogHeader1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;butCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioFixed.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="faTabStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 46</value>
+  </data>
+  <data name="&gt;&gt;textMasterPassword.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="radioLastUsed.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;sshFontSize.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textFixedFolder.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 113</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dividerPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>424, 42</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;faTabStripItem1.Parent" xml:space="preserve">
+    <value>faTabStrip1</value>
+  </data>
+  <data name="checkMinimizeToTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 17</value>
+  </data>
+  <data name="&gt;&gt;tabInterface.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tabSecurity.Name" xml:space="preserve">
+    <value>tabSecurity</value>
+  </data>
+  <data name="checkBoxCorrectFocus.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="checkMinimizeToTray.Text" xml:space="preserve">
+    <value>Minimize to system tray</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>tabSecurity</value>
+  </data>
+  <data name="tabSecurity.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>GlobalSettings</value>
+  </data>
+  <data name="dialogHeader1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>424, 46</value>
+  </data>
+  <data name="radioFixed.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioDesktop.Text" xml:space="preserve">
+    <value>Desktop</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="textMasterPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radioMyComputer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 18</value>
+  </data>
+  <data name="&gt;&gt;radioFixed.Name" xml:space="preserve">
+    <value>radioFixed</value>
+  </data>
+  <data name="sshFontSize.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;radioLastUsed.Name" xml:space="preserve">
+    <value>radioLastUsed</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tabSSH</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Master configuration password</value>
+  </data>
+  <data name="sshFontSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="&gt;&gt;tabSSH.Parent" xml:space="preserve">
+    <value>faTabStrip1</value>
+  </data>
+  <data name="&gt;&gt;butSetPassword.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnBrowseFolder.Name" xml:space="preserve">
+    <value>btnBrowseFolder</value>
+  </data>
+  <data name="&gt;&gt;textPasswordRepeat.Parent" xml:space="preserve">
+    <value>tabSecurity</value>
+  </data>
+  <data name="butSetPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 21</value>
+  </data>
+  <data name="&gt;&gt;tabSecurity.Type" xml:space="preserve">
+    <value>FarsiLibrary.Win.FATabStripItem, XwMaxLib, Version=5.0.0.1, Culture=neutral, PublicKeyToken=d5cba97d4ac1f01c</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabFTP.Type" xml:space="preserve">
+    <value>FarsiLibrary.Win.FATabStripItem, XwMaxLib, Version=5.0.0.1, Culture=neutral, PublicKeyToken=d5cba97d4ac1f01c</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="&gt;&gt;radioDesktop.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;radioMyComputer.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="tabSSH.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 203</value>
+  </data>
+  <data name="sshFontSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 21</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="tabInterface.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnBrowseFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 19</value>
+  </data>
+  <data name="&gt;&gt;butRemovePass.Parent" xml:space="preserve">
+    <value>tabSecurity</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="butOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="&gt;&gt;checkBoxCorrectFocus.Parent" xml:space="preserve">
+    <value>tabSSH</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;sshFontSize.Name" xml:space="preserve">
+    <value>sshFontSize</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 13</value>
+  </data>
+  <data name="&gt;&gt;textMasterPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="butCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 9</value>
+  </data>
+  <data name="radioLastUsed.Text" xml:space="preserve">
+    <value>Last used</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 87</value>
+  </data>
+  <data name="btnBrowseFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>386, 13</value>
+  </data>
+  <data name="&gt;&gt;faTabStripItem1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;faTabStrip1.Name" xml:space="preserve">
+    <value>faTabStrip1</value>
+  </data>
+  <data name="checkCloseToTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 17</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textMasterPassword.Name" xml:space="preserve">
+    <value>textMasterPassword</value>
+  </data>
+  <data name="&gt;&gt;butCancel.Name" xml:space="preserve">
+    <value>butCancel</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Initial Local Folder</value>
+  </data>
+  <data name="&gt;&gt;radioMyComputer.Name" xml:space="preserve">
+    <value>radioMyComputer</value>
+  </data>
+  <data name="&gt;&gt;dividerPanel1.Type" xml:space="preserve">
+    <value>DividerPanel.DividerPanel, XwMaxLib, Version=5.0.0.1, Culture=neutral, PublicKeyToken=d5cba97d4ac1f01c</value>
+  </data>
+  <data name="butCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="textMasterPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 85</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>416, 81</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dialogHeader1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;radioMyComputer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkMinimizeToTray.Name" xml:space="preserve">
+    <value>checkMinimizeToTray</value>
+  </data>
+  <data name="&gt;&gt;butRemovePass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dividerPanel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;checkCloseToTray.Parent" xml:space="preserve">
+    <value>tabInterface</value>
+  </data>
+  <data name="&gt;&gt;tabFTP.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dividerPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="faTabStrip1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;checkBoxCorrectFocus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textFixedFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 21</value>
+  </data>
+  <data name="&gt;&gt;radioFixed.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkBoxCorrectFocus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 31</value>
+  </data>
+  <data name="&gt;&gt;checkBoxCorrectFocus.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabFTP.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>tabFTP</value>
+  </data>
+  <data name="radioLastUsed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 17</value>
+  </data>
+  <data name="dividerPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 268</value>
+  </data>
+  <data name="&gt;&gt;dividerPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>tabSecurity</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>tabSecurity</value>
+  </data>
+  <data name="dividerPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 33</value>
+  </data>
+  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>This allows you to keep your passwords secure by encrypting the configuration</value>
+  </data>
+  <data name="&gt;&gt;radioLastUsed.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 21</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>zh-CN</value>
+  </metadata>
   <metadata name="folderBrowserDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>

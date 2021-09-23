@@ -32,10 +32,10 @@ namespace XwRemote
             CenterToParent();
             LoadList();
 
-            if (!Main.config.ShowExperimentalFeatures())
+            /*if (!Main.config.ShowExperimentalFeatures())
             {
                 newSQL.Visible = false;
-            }
+            }*/
         }
 
         //*************************************************************************************************************

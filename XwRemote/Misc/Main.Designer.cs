@@ -57,37 +57,45 @@
             // 
             // toolStripContainer1
             // 
+            resources.ApplyResources(this.toolStripContainer1, "toolStripContainer1");
+            // 
+            // toolStripContainer1.BottomToolStripPanel
+            // 
+            resources.ApplyResources(this.toolStripContainer1.BottomToolStripPanel, "toolStripContainer1.BottomToolStripPanel");
             this.toolStripContainer1.BottomToolStripPanelVisible = false;
             // 
             // toolStripContainer1.ContentPanel
             // 
+            resources.ApplyResources(this.toolStripContainer1.ContentPanel, "toolStripContainer1.ContentPanel");
             this.toolStripContainer1.ContentPanel.Controls.Add(this.ServerTabs);
             this.toolStripContainer1.ContentPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.ManagerRenderMode;
-            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(869, 632);
-            this.toolStripContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            // 
+            // toolStripContainer1.LeftToolStripPanel
+            // 
+            resources.ApplyResources(this.toolStripContainer1.LeftToolStripPanel, "toolStripContainer1.LeftToolStripPanel");
             this.toolStripContainer1.LeftToolStripPanelVisible = false;
-            this.toolStripContainer1.Location = new System.Drawing.Point(0, 25);
             this.toolStripContainer1.Name = "toolStripContainer1";
+            // 
+            // toolStripContainer1.RightToolStripPanel
+            // 
+            resources.ApplyResources(this.toolStripContainer1.RightToolStripPanel, "toolStripContainer1.RightToolStripPanel");
             this.toolStripContainer1.RightToolStripPanelVisible = false;
-            this.toolStripContainer1.Size = new System.Drawing.Size(869, 632);
-            this.toolStripContainer1.TabIndex = 3;
-            this.toolStripContainer1.Text = "toolStripContainer1";
+            // 
+            // toolStripContainer1.TopToolStripPanel
+            // 
+            resources.ApplyResources(this.toolStripContainer1.TopToolStripPanel, "toolStripContainer1.TopToolStripPanel");
             this.toolStripContainer1.TopToolStripPanelVisible = false;
             // 
             // ServerTabs
             // 
+            resources.ApplyResources(this.ServerTabs, "ServerTabs");
             this.ServerTabs.AllowDrop = true;
             this.ServerTabs.BackgroundHatcher.BackColor = System.Drawing.Color.Gray;
             this.ServerTabs.BackgroundHatcher.HatchType = System.Drawing.Drawing2D.HatchStyle.DashedVertical;
-            this.ServerTabs.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ServerTabs.DrawMode = System.Windows.Forms.TabDrawMode.OwnerDrawFixed;
-            this.ServerTabs.ItemSize = new System.Drawing.Size(73, 28);
-            this.ServerTabs.Location = new System.Drawing.Point(0, 0);
             this.ServerTabs.Name = "ServerTabs";
-            this.ServerTabs.Size = new System.Drawing.Size(869, 632);
             this.ServerTabs.TabGradient.ColorEnd = System.Drawing.Color.LightSteelBlue;
             this.ServerTabs.TabGradient.GradientStyle = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.ServerTabs.TabIndex = 0;
             this.ServerTabs.TabStyles = KRBTabControlNS.CustomTab.KRBTabControl.TabStyle.Sequence;
             this.ServerTabs.UpDownStyle = KRBTabControlNS.CustomTab.KRBTabControl.UpDown32Style.OfficeBlue;
             this.ServerTabs.TabClosing += new System.ComponentModel.CancelEventHandler(this.ServerTabs_TabClosing);
@@ -96,39 +104,33 @@
             // 
             // Toolbar_ServerManager
             // 
+            resources.ApplyResources(this.Toolbar_ServerManager, "Toolbar_ServerManager");
             this.Toolbar_ServerManager.Image = global::XwRemote.Properties.Resources.server_connect;
-            this.Toolbar_ServerManager.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Toolbar_ServerManager.Name = "Toolbar_ServerManager";
-            this.Toolbar_ServerManager.Size = new System.Drawing.Size(109, 22);
-            this.Toolbar_ServerManager.Text = "Server Manager";
-            this.Toolbar_ServerManager.ToolTipText = "Server Manager";
             this.Toolbar_ServerManager.Click += new System.EventHandler(this.Toolbar_ServerManager_Click);
             // 
             // toolStripSeparator2
             // 
+            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
             this.toolStripSeparator2.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
             // 
             // Toolbar_Updates
             // 
+            resources.ApplyResources(this.Toolbar_Updates, "Toolbar_Updates");
             this.Toolbar_Updates.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.Toolbar_Updates.Enabled = false;
-            this.Toolbar_Updates.Image = ((System.Drawing.Image)(resources.GetObject("Toolbar_Updates.Image")));
-            this.Toolbar_Updates.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Toolbar_Updates.Name = "Toolbar_Updates";
-            this.Toolbar_Updates.Size = new System.Drawing.Size(137, 22);
-            this.Toolbar_Updates.Text = "No updates available";
             this.Toolbar_Updates.Click += new System.EventHandler(this.toolStripUpdates_Click);
             // 
             // toolStripSeparator3
             // 
+            resources.ApplyResources(this.toolStripSeparator3, "toolStripSeparator3");
             this.toolStripSeparator3.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 25);
             // 
             // MainToolbar
             // 
+            resources.ApplyResources(this.MainToolbar, "MainToolbar");
             this.MainToolbar.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.Toolbar_ServerManager,
             this.toolStripSeparator4,
@@ -141,121 +143,98 @@
             this.Toolbar_Stuff,
             this.toolStripSeparator2,
             this.Toolbar_Updates});
-            this.MainToolbar.Location = new System.Drawing.Point(0, 0);
             this.MainToolbar.Name = "MainToolbar";
-            this.MainToolbar.Size = new System.Drawing.Size(869, 25);
-            this.MainToolbar.TabIndex = 1;
-            this.MainToolbar.Text = "toolStrip1";
             this.MainToolbar.MouseEnter += new System.EventHandler(this.MainToolbar_MouseEnter);
             // 
             // toolStripSeparator4
             // 
+            resources.ApplyResources(this.toolStripSeparator4, "toolStripSeparator4");
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 25);
             // 
             // Toolbar_Favorites
             // 
+            resources.ApplyResources(this.Toolbar_Favorites, "Toolbar_Favorites");
             this.Toolbar_Favorites.Image = global::XwRemote.Properties.Resources.favs;
-            this.Toolbar_Favorites.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Toolbar_Favorites.Name = "Toolbar_Favorites";
-            this.Toolbar_Favorites.Size = new System.Drawing.Size(83, 22);
-            this.Toolbar_Favorites.Text = "Favorites";
             this.Toolbar_Favorites.DropDownItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.Toolbar_Favorites_DropDownItemClicked);
             // 
             // toolStripSeparator5
             // 
+            resources.ApplyResources(this.toolStripSeparator5, "toolStripSeparator5");
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 25);
             // 
             // toolStripButton1
             // 
+            resources.ApplyResources(this.toolStripButton1, "toolStripButton1");
             this.toolStripButton1.Image = global::XwRemote.Properties.Resources.settings;
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(69, 22);
-            this.toolStripButton1.Text = "Settings";
             this.toolStripButton1.Click += new System.EventHandler(this.toolSettings_Click);
             // 
             // toolSettings
             // 
+            resources.ApplyResources(this.toolSettings, "toolSettings");
             this.toolSettings.Image = global::XwRemote.Properties.Resources.magnifier;
-            this.toolSettings.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolSettings.Name = "toolSettings";
-            this.toolSettings.Size = new System.Drawing.Size(69, 22);
-            this.toolSettings.Text = "Scanner";
-            this.toolSettings.ToolTipText = "Network scanner";
             this.toolSettings.Click += new System.EventHandler(this.toolScanner_Click);
             // 
             // Toolbar_CanYouHelp
             // 
+            resources.ApplyResources(this.Toolbar_CanYouHelp, "Toolbar_CanYouHelp");
             this.Toolbar_CanYouHelp.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.Toolbar_CanYouHelp.Image = global::XwRemote.Properties.Resources.paypal;
-            this.Toolbar_CanYouHelp.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Toolbar_CanYouHelp.Name = "Toolbar_CanYouHelp";
-            this.Toolbar_CanYouHelp.Size = new System.Drawing.Size(102, 22);
-            this.Toolbar_CanYouHelp.Text = "Can you help?";
             this.Toolbar_CanYouHelp.Click += new System.EventHandler(this.Toolbar_CanYouHelp_Click);
             // 
             // Toolbar_Stuff
             // 
+            resources.ApplyResources(this.Toolbar_Stuff, "Toolbar_Stuff");
             this.Toolbar_Stuff.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.Toolbar_Stuff.Image = global::XwRemote.Properties.Resources.xwremote1;
-            this.Toolbar_Stuff.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Toolbar_Stuff.Name = "Toolbar_Stuff";
-            this.Toolbar_Stuff.Size = new System.Drawing.Size(52, 22);
-            this.Toolbar_Stuff.Text = "Stuff";
             this.Toolbar_Stuff.Click += new System.EventHandler(this.Toolbar_Stuff_Click);
             // 
             // appTrayMenu
             // 
+            resources.ApplyResources(this.appTrayMenu, "appTrayMenu");
             this.appTrayMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.showMainApplicationWindowToolStripMenuItem,
             this.resetPositionToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.appTrayMenu.Name = "appTrayMenu";
-            this.appTrayMenu.Size = new System.Drawing.Size(149, 70);
             // 
             // showMainApplicationWindowToolStripMenuItem
             // 
+            resources.ApplyResources(this.showMainApplicationWindowToolStripMenuItem, "showMainApplicationWindowToolStripMenuItem");
             this.showMainApplicationWindowToolStripMenuItem.Name = "showMainApplicationWindowToolStripMenuItem";
-            this.showMainApplicationWindowToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
-            this.showMainApplicationWindowToolStripMenuItem.Text = "Show window";
             this.showMainApplicationWindowToolStripMenuItem.Click += new System.EventHandler(this.showMainApplicationWindowToolStripMenuItem_Click);
             // 
             // resetPositionToolStripMenuItem
             // 
+            resources.ApplyResources(this.resetPositionToolStripMenuItem, "resetPositionToolStripMenuItem");
             this.resetPositionToolStripMenuItem.Name = "resetPositionToolStripMenuItem";
-            this.resetPositionToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
-            this.resetPositionToolStripMenuItem.Text = "Reset position";
             this.resetPositionToolStripMenuItem.Click += new System.EventHandler(this.resetPositionToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
+            resources.ApplyResources(this.exitToolStripMenuItem, "exitToolStripMenuItem");
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
-            this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // appTrayIcon
             // 
-            this.appTrayIcon.BalloonTipTitle = "XwComPortDetector";
+            resources.ApplyResources(this.appTrayIcon, "appTrayIcon");
             this.appTrayIcon.ContextMenuStrip = this.appTrayMenu;
-            this.appTrayIcon.Icon = ((System.Drawing.Icon)(resources.GetObject("appTrayIcon.Icon")));
-            this.appTrayIcon.Text = "AppTrayIcon";
             this.appTrayIcon.DoubleClick += new System.EventHandler(this.appTrayIcon_DoubleClick);
             this.appTrayIcon.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.appTrayIcon_MouseDoubleClick);
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(869, 657);
             this.Controls.Add(this.toolStripContainer1);
             this.Controls.Add(this.MainToolbar);
             this.DoubleBuffered = true;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Main";
-            this.Text = "XwRemote";
             this.Activated += new System.EventHandler(this.Main_Activated);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.OnClosing);
             this.Load += new System.EventHandler(this.OnLoad);

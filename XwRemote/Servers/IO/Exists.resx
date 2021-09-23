@@ -117,4 +117,505 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dialogHeader1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="dialogHeader1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dialogHeader1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>545, 50</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dialogHeader1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dialogHeader1.Name" xml:space="preserve">
+    <value>dialogHeader1</value>
+  </data>
+  <data name="&gt;&gt;dialogHeader1.Type" xml:space="preserve">
+    <value>XwMaxLib.UI.DialogHeader, XwMaxLib, Version=5.0.0.1, Culture=neutral, PublicKeyToken=d5cba97d4ac1f01c</value>
+  </data>
+  <data name="&gt;&gt;dialogHeader1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dialogHeader1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="overwriteFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="overwriteFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 56</value>
+  </data>
+  <data name="overwriteFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 21</value>
+  </data>
+  <data name="overwriteFile.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="overwriteFile.Text" xml:space="preserve">
+    <value>Overwrite this file</value>
+  </data>
+  <data name="&gt;&gt;overwriteFile.Name" xml:space="preserve">
+    <value>overwriteFile</value>
+  </data>
+  <data name="&gt;&gt;overwriteFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;overwriteFile.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;overwriteFile.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="resumeFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="resumeFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 110</value>
+  </data>
+  <data name="resumeFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 21</value>
+  </data>
+  <data name="resumeFile.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resumeFile.Text" xml:space="preserve">
+    <value>Resume this file</value>
+  </data>
+  <data name="resumeFile.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;resumeFile.Name" xml:space="preserve">
+    <value>resumeFile</value>
+  </data>
+  <data name="&gt;&gt;resumeFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;resumeFile.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;resumeFile.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="skipFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="skipFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 83</value>
+  </data>
+  <data name="skipFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 21</value>
+  </data>
+  <data name="skipFile.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="skipFile.Text" xml:space="preserve">
+    <value>Skip this file</value>
+  </data>
+  <data name="&gt;&gt;skipFile.Name" xml:space="preserve">
+    <value>skipFile</value>
+  </data>
+  <data name="&gt;&gt;skipFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;skipFile.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;skipFile.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="overwriteAll.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="overwriteAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 153</value>
+  </data>
+  <data name="overwriteAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 21</value>
+  </data>
+  <data name="overwriteAll.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="overwriteAll.Text" xml:space="preserve">
+    <value>Overwrite all files</value>
+  </data>
+  <data name="&gt;&gt;overwriteAll.Name" xml:space="preserve">
+    <value>overwriteAll</value>
+  </data>
+  <data name="&gt;&gt;overwriteAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;overwriteAll.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;overwriteAll.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="resumeAll.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="resumeAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 207</value>
+  </data>
+  <data name="resumeAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 21</value>
+  </data>
+  <data name="resumeAll.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="resumeAll.Text" xml:space="preserve">
+    <value>Resume all files</value>
+  </data>
+  <data name="resumeAll.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;resumeAll.Name" xml:space="preserve">
+    <value>resumeAll</value>
+  </data>
+  <data name="&gt;&gt;resumeAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;resumeAll.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;resumeAll.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="skipAll.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="skipAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 180</value>
+  </data>
+  <data name="skipAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 21</value>
+  </data>
+  <data name="skipAll.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="skipAll.Text" xml:space="preserve">
+    <value>Skip all files</value>
+  </data>
+  <data name="&gt;&gt;skipAll.Name" xml:space="preserve">
+    <value>skipAll</value>
+  </data>
+  <data name="&gt;&gt;skipAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;skipAll.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;skipAll.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 253</value>
+  </data>
+  <data name="Cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 39</value>
+  </data>
+  <data name="Cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;Cancel.Name" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;Cancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Cancel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 56</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Source file:</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 180</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Destination file:</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="SourceIcon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 83</value>
+  </data>
+  <data name="SourceIcon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 34</value>
+  </data>
+  <data name="SourceIcon.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;SourceIcon.Name" xml:space="preserve">
+    <value>SourceIcon</value>
+  </data>
+  <data name="&gt;&gt;SourceIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SourceIcon.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SourceIcon.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="DestinationIcon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 207</value>
+  </data>
+  <data name="DestinationIcon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 34</value>
+  </data>
+  <data name="DestinationIcon.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;DestinationIcon.Name" xml:space="preserve">
+    <value>DestinationIcon</value>
+  </data>
+  <data name="&gt;&gt;DestinationIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DestinationIcon.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DestinationIcon.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="SourceFileName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 83</value>
+  </data>
+  <data name="SourceFileName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 48</value>
+  </data>
+  <data name="SourceFileName.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="SourceFileName.Text" xml:space="preserve">
+    <value>source file name</value>
+  </data>
+  <data name="&gt;&gt;SourceFileName.Name" xml:space="preserve">
+    <value>SourceFileName</value>
+  </data>
+  <data name="&gt;&gt;SourceFileName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SourceFileName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SourceFileName.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="DestinationFileName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 207</value>
+  </data>
+  <data name="DestinationFileName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 48</value>
+  </data>
+  <data name="DestinationFileName.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="DestinationFileName.Text" xml:space="preserve">
+    <value>destination file name</value>
+  </data>
+  <data name="&gt;&gt;DestinationFileName.Name" xml:space="preserve">
+    <value>DestinationFileName</value>
+  </data>
+  <data name="&gt;&gt;DestinationFileName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DestinationFileName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DestinationFileName.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="SourceFileDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SourceFileDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 135</value>
+  </data>
+  <data name="SourceFileDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 12</value>
+  </data>
+  <data name="SourceFileDate.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="SourceFileDate.Text" xml:space="preserve">
+    <value>source file date</value>
+  </data>
+  <data name="&gt;&gt;SourceFileDate.Name" xml:space="preserve">
+    <value>SourceFileDate</value>
+  </data>
+  <data name="&gt;&gt;SourceFileDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SourceFileDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SourceFileDate.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SourceFileSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SourceFileSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 152</value>
+  </data>
+  <data name="SourceFileSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 12</value>
+  </data>
+  <data name="SourceFileSize.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="SourceFileSize.Text" xml:space="preserve">
+    <value>source file size</value>
+  </data>
+  <data name="&gt;&gt;SourceFileSize.Name" xml:space="preserve">
+    <value>SourceFileSize</value>
+  </data>
+  <data name="&gt;&gt;SourceFileSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SourceFileSize.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SourceFileSize.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="DestinationFileDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DestinationFileDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 260</value>
+  </data>
+  <data name="DestinationFileDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 12</value>
+  </data>
+  <data name="DestinationFileDate.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="DestinationFileDate.Text" xml:space="preserve">
+    <value>destination file date</value>
+  </data>
+  <data name="&gt;&gt;DestinationFileDate.Name" xml:space="preserve">
+    <value>DestinationFileDate</value>
+  </data>
+  <data name="&gt;&gt;DestinationFileDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DestinationFileDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DestinationFileDate.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="DestinationFileSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DestinationFileSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 278</value>
+  </data>
+  <data name="DestinationFileSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 12</value>
+  </data>
+  <data name="DestinationFileSize.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="DestinationFileSize.Text" xml:space="preserve">
+    <value>destination file size</value>
+  </data>
+  <data name="&gt;&gt;DestinationFileSize.Name" xml:space="preserve">
+    <value>DestinationFileSize</value>
+  </data>
+  <data name="&gt;&gt;DestinationFileSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DestinationFileSize.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DestinationFileSize.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>zh-CN</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>545, 302</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>File exists...</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Exists</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
