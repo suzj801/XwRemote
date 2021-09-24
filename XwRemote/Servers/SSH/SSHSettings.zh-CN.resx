@@ -165,4 +165,13 @@
   <data name="label9.Text" xml:space="preserve">
     <value>备注:</value>
   </data>
+  <data name="msg_host" xml:space="preserve">
+    <value>主机</value>
+  </data>
+  <data name="msg_name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="msg_not_empty" xml:space="preserve">
+    <value>不能留空</value>
+  </data>
 </root>

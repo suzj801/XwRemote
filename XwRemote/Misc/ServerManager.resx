@@ -1032,22 +1032,32 @@
   <data name="NewVNC.Text" xml:space="preserve">
     <value>New VNC</value>
   </data>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
     <value>zh-CN</value>
-  </metadata>
-  <metadata name="tabStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  </data>
+  <data name="tabStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
-  <metadata name="contextGroup.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  </data>
+  <data name="contextGroup.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>111, 17</value>
-  </metadata>
-  <metadata name="contextServer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  </data>
+  <data name="contextServer.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>244, 17</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="$this.TrayHeight" type="System.Int32, mscorlib">
     <value>79</value>
-  </metadata>
+  </data>
+  <data name="delete_group_msg_context" xml:space="preserve">
+    <value>Delete Group?
+Servers will remain but be ungrouped</value>
+  </data>
+  <data name="delete_group_msg_header" xml:space="preserve">
+    <value>group</value>
+  </data>
+  <data name="tree_new_group" xml:space="preserve">
+    <value>New Group</value>
+  </data>
 </root>

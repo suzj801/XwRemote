@@ -177,6 +177,33 @@
   <data name="label9.Text" xml:space="preserve">
     <value>备注:</value>
   </data>
+  <data name="msg_host" xml:space="preserve">
+    <value>主机</value>
+  </data>
+  <data name="msg_name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="msg_not_empty" xml:space="preserve">
+    <value>不能留空</value>
+  </data>
+  <data name="rdp_color_item_256" xml:space="preserve">
+    <value>256彩色(8位)</value>
+  </data>
+  <data name="rdp_color_item_high" xml:space="preserve">
+    <value>高彩色(16位)</value>
+  </data>
+  <data name="rdp_color_item_highest" xml:space="preserve">
+    <value>最高彩色(32位)</value>
+  </data>
+  <data name="rdp_color_item_medium" xml:space="preserve">
+    <value>中等彩色(15位)</value>
+  </data>
+  <data name="rdp_color_item_true" xml:space="preserve">
+    <value>真彩色(24位)</value>
+  </data>
+  <data name="rdp_fix_to_windows" xml:space="preserve">
+    <value>与窗口相同</value>
+  </data>
   <data name="SendKeys.Text" xml:space="preserve">
     <value>发送快捷键到服务器</value>
   </data>

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Drawing;
 using System.IO;
+using System.Resources;
 using System.Windows.Forms;
 using XwMaxLib.Extensions;
 using XwMaxLib.Extentions;
@@ -10,6 +11,7 @@ namespace XwRemote.Settings
     public partial class SSHSettings : Form
     {
         private Server server = null;
+        private ResourceManager rm = new ResourceManager(typeof(SSHSettings));
 
         //*************************************************************************************************************
         public SSHSettings(Server server)
@@ -51,13 +53,13 @@ namespace XwRemote.Settings
         {
             if (NameBox.Text.Trim() == string.Empty)
             {
-                NameBox.ShowBalloon(ToolTipIcon.Warning, "Name", "must not be empty");
+                NameBox.ShowBalloon(ToolTipIcon.Warning, rm.GetString("msg_name"), rm.GetString("msg_not_empty"));
                 return;
             }
 
             if (HostBox.Text.Trim() == string.Empty)
             {
-                HostBox.ShowBalloon(ToolTipIcon.Warning, "Host", "must not be empty");
+                HostBox.ShowBalloon(ToolTipIcon.Warning, rm.GetString("msg_host"), rm.GetString("msg_not_empty"));
                 return;
             }
 

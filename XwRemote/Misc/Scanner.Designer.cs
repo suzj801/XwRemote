@@ -54,119 +54,81 @@
             this.SuspendLayout();
             // 
             // dialogHeader1
-            // 
-            this.dialogHeader1.Dock = System.Windows.Forms.DockStyle.Top;
+            //
+            this.dialogHeader1.HeaderDescription = "Try and find hosts on the network that have open ports so that you can connect to" +
+    " them";
+            this.dialogHeader1.HeaderTitle = "Network scan";
+            resources.ApplyResources(this.dialogHeader1, "dialogHeader1");
             this.dialogHeader1.Gradient1 = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(239)))), ((int)(((byte)(255)))));
             this.dialogHeader1.Gradient2 = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(222)))), ((int)(((byte)(255)))));
             this.dialogHeader1.Gradient3 = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(209)))), ((int)(((byte)(255)))));
             this.dialogHeader1.Gradient4 = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(219)))), ((int)(((byte)(255)))));
-            this.dialogHeader1.HeaderDescription = "Try and find hosts on the network that have open ports so that you can connect to" +
-    " them";
             this.dialogHeader1.HeaderImage = global::XwRemote.Properties.Resources.magnifier;
-            this.dialogHeader1.HeaderTitle = "Network scan";
-            this.dialogHeader1.Location = new System.Drawing.Point(0, 0);
             this.dialogHeader1.Name = "dialogHeader1";
-            this.dialogHeader1.Size = new System.Drawing.Size(1007, 50);
-            this.dialogHeader1.TabIndex = 1;
             // 
             // ipAddressControlFrom
             // 
+            resources.ApplyResources(this.ipAddressControlFrom, "ipAddressControlFrom");
             this.ipAddressControlFrom.AllowInternalTab = false;
             this.ipAddressControlFrom.AutoHeight = true;
             this.ipAddressControlFrom.BackColor = System.Drawing.SystemColors.Window;
             this.ipAddressControlFrom.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.ipAddressControlFrom.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.ipAddressControlFrom.Location = new System.Drawing.Point(95, 59);
-            this.ipAddressControlFrom.MinimumSize = new System.Drawing.Size(87, 20);
             this.ipAddressControlFrom.Name = "ipAddressControlFrom";
             this.ipAddressControlFrom.ReadOnly = false;
-            this.ipAddressControlFrom.Size = new System.Drawing.Size(87, 20);
-            this.ipAddressControlFrom.TabIndex = 2;
-            this.ipAddressControlFrom.Text = "...";
             this.ipAddressControlFrom.TextChanged += new System.EventHandler(this.ipAddressControlFrom_TextChanged);
             // 
             // ipAddressControlTo
             // 
+            resources.ApplyResources(this.ipAddressControlTo, "ipAddressControlTo");
             this.ipAddressControlTo.AllowInternalTab = false;
             this.ipAddressControlTo.AutoHeight = true;
             this.ipAddressControlTo.BackColor = System.Drawing.SystemColors.Window;
             this.ipAddressControlTo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.ipAddressControlTo.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.ipAddressControlTo.Location = new System.Drawing.Point(210, 59);
-            this.ipAddressControlTo.MinimumSize = new System.Drawing.Size(87, 20);
             this.ipAddressControlTo.Name = "ipAddressControlTo";
             this.ipAddressControlTo.ReadOnly = false;
-            this.ipAddressControlTo.Size = new System.Drawing.Size(87, 20);
-            this.ipAddressControlTo.TabIndex = 3;
-            this.ipAddressControlTo.Text = "...";
             this.ipAddressControlTo.TextChanged += new System.EventHandler(this.ipAddressControlTo_TextChanged);
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(8, 62);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 13);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "IP range from";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(188, 62);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(16, 13);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "to";
             // 
             // buttonStartNoARP
             // 
-            this.buttonStartNoARP.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonStartNoARP.Location = new System.Drawing.Point(719, 85);
+            resources.ApplyResources(this.buttonStartNoARP, "buttonStartNoARP");
             this.buttonStartNoARP.Name = "buttonStartNoARP";
-            this.buttonStartNoARP.Size = new System.Drawing.Size(276, 22);
-            this.buttonStartNoARP.TabIndex = 6;
-            this.buttonStartNoARP.Text = "Start";
             this.buttonStartNoARP.UseVisualStyleBackColor = true;
             this.buttonStartNoARP.Click += new System.EventHandler(this.buttonStart_NoARP_Click);
             // 
             // listViewHosts
             // 
-            this.listViewHosts.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.listViewHosts, "listViewHosts");
             this.listViewHosts.HideSelection = false;
-            this.listViewHosts.Location = new System.Drawing.Point(12, 129);
             this.listViewHosts.Name = "listViewHosts";
-            this.listViewHosts.Size = new System.Drawing.Size(983, 556);
-            this.listViewHosts.TabIndex = 7;
             this.listViewHosts.UseCompatibleStateImageBehavior = false;
             this.listViewHosts.View = System.Windows.Forms.View.Details;
             // 
             // progressBar
             // 
-            this.progressBar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.progressBar.Location = new System.Drawing.Point(12, 112);
+            resources.ApplyResources(this.progressBar, "progressBar");
             this.progressBar.Name = "progressBar";
-            this.progressBar.Size = new System.Drawing.Size(983, 11);
-            this.progressBar.TabIndex = 8;
             // 
             // textTcpPorts
             // 
-            this.textTcpPorts.Location = new System.Drawing.Point(511, 59);
+            resources.ApplyResources(this.textTcpPorts, "textTcpPorts");
             this.textTcpPorts.Name = "textTcpPorts";
-            this.textTcpPorts.Size = new System.Drawing.Size(202, 20);
-            this.textTcpPorts.TabIndex = 10;
             // 
             // checkTcpPorts
             // 
-            this.checkTcpPorts.AutoSize = true;
-            this.checkTcpPorts.Location = new System.Drawing.Point(421, 61);
+            resources.ApplyResources(this.checkTcpPorts, "checkTcpPorts");
             this.checkTcpPorts.Name = "checkTcpPorts";
-            this.checkTcpPorts.Size = new System.Drawing.Size(84, 17);
-            this.checkTcpPorts.TabIndex = 9;
-            this.checkTcpPorts.Text = "Check Ports";
             this.checkTcpPorts.UseVisualStyleBackColor = true;
             this.checkTcpPorts.CheckedChanged += new System.EventHandler(this.checkTcpPorts_CheckedChanged);
             // 
@@ -176,36 +138,26 @@
             // 
             // checkBoxHideDead
             // 
-            this.checkBoxHideDead.AutoSize = true;
+            resources.ApplyResources(this.checkBoxHideDead, "checkBoxHideDead");
             this.checkBoxHideDead.Checked = true;
             this.checkBoxHideDead.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxHideDead.Location = new System.Drawing.Point(210, 87);
             this.checkBoxHideDead.Name = "checkBoxHideDead";
-            this.checkBoxHideDead.Size = new System.Drawing.Size(93, 17);
-            this.checkBoxHideDead.TabIndex = 11;
-            this.checkBoxHideDead.Text = "Hide dead IPs";
             this.checkBoxHideDead.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(418, 88);
+            resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(91, 13);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "Test Timeout (ms)";
             // 
             // numericTestTimeout
             // 
-            this.numericTestTimeout.Location = new System.Drawing.Point(511, 86);
+            resources.ApplyResources(this.numericTestTimeout, "numericTestTimeout");
             this.numericTestTimeout.Maximum = new decimal(new int[] {
             1000000,
             0,
             0,
             0});
             this.numericTestTimeout.Name = "numericTestTimeout";
-            this.numericTestTimeout.Size = new System.Drawing.Size(202, 20);
-            this.numericTestTimeout.TabIndex = 13;
             this.numericTestTimeout.Value = new decimal(new int[] {
             100,
             0,
@@ -214,10 +166,8 @@
             // 
             // numericMaxThreads
             // 
-            this.numericMaxThreads.Location = new System.Drawing.Point(95, 86);
+            resources.ApplyResources(this.numericMaxThreads, "numericMaxThreads");
             this.numericMaxThreads.Name = "numericMaxThreads";
-            this.numericMaxThreads.Size = new System.Drawing.Size(87, 20);
-            this.numericMaxThreads.TabIndex = 15;
             this.numericMaxThreads.Value = new decimal(new int[] {
             10,
             0,
@@ -226,53 +176,36 @@
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(8, 88);
+            resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(69, 13);
-            this.label4.TabIndex = 14;
-            this.label4.Text = "Max Threads";
             // 
             // checkDNS
             // 
-            this.checkDNS.AutoSize = true;
+            resources.ApplyResources(this.checkDNS, "checkDNS");
             this.checkDNS.Checked = true;
             this.checkDNS.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkDNS.Location = new System.Drawing.Point(311, 62);
             this.checkDNS.Name = "checkDNS";
-            this.checkDNS.Size = new System.Drawing.Size(83, 17);
-            this.checkDNS.TabIndex = 16;
-            this.checkDNS.Text = "Check DNS";
             this.checkDNS.UseVisualStyleBackColor = true;
             // 
             // checkNetBios
             // 
-            this.checkNetBios.AutoSize = true;
+            resources.ApplyResources(this.checkNetBios, "checkNetBios");
             this.checkNetBios.Checked = true;
             this.checkNetBios.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkNetBios.Location = new System.Drawing.Point(311, 87);
             this.checkNetBios.Name = "checkNetBios";
-            this.checkNetBios.Size = new System.Drawing.Size(96, 17);
-            this.checkNetBios.TabIndex = 17;
-            this.checkNetBios.Text = "Check Netbios";
             this.checkNetBios.UseVisualStyleBackColor = true;
             // 
             // buttonStartARP
             // 
-            this.buttonStartARP.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonStartARP.Location = new System.Drawing.Point(719, 58);
+            resources.ApplyResources(this.buttonStartARP, "buttonStartARP");
             this.buttonStartARP.Name = "buttonStartARP";
-            this.buttonStartARP.Size = new System.Drawing.Size(276, 22);
-            this.buttonStartARP.TabIndex = 18;
-            this.buttonStartARP.Text = "Start";
             this.buttonStartARP.UseVisualStyleBackColor = true;
             this.buttonStartARP.Click += new System.EventHandler(this.buttonStart_ARP_Click);
             // 
             // Scanner
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1007, 697);
             this.Controls.Add(this.buttonStartARP);
             this.Controls.Add(this.checkNetBios);
             this.Controls.Add(this.checkDNS);
@@ -291,10 +224,7 @@
             this.Controls.Add(this.ipAddressControlTo);
             this.Controls.Add(this.ipAddressControlFrom);
             this.Controls.Add(this.dialogHeader1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Scanner";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "XwRemote Scanner";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Scanner_FormClosing);
             this.Load += new System.EventHandler(this.Scanner_Load);
             this.Resize += new System.EventHandler(this.Scanner_Resize);

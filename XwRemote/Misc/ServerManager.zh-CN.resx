@@ -182,22 +182,22 @@
     <value>新建SSH</value>
   </data>
   <data name="EditServer.Text" xml:space="preserve">
-    <value>修改服务器</value>
+    <value>修改主机</value>
   </data>
   <data name="DeleteServer.Text" xml:space="preserve">
-    <value>删除服务器</value>
+    <value>删除主机</value>
   </data>
   <data name="editServerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>157, 22</value>
   </data>
   <data name="editServerToolStripMenuItem.Text" xml:space="preserve">
-    <value>修改服务器</value>
+    <value>修改主机</value>
   </data>
   <data name="deleteServerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>157, 22</value>
   </data>
   <data name="deleteServerToolStripMenuItem.Text" xml:space="preserve">
-    <value>删除服务器</value>
+    <value>删除主机</value>
   </data>
   <data name="addToFavoritesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>157, 22</value>
@@ -218,7 +218,7 @@
     <value>157, 22</value>
   </data>
   <data name="ExportServer.Text" xml:space="preserve">
-    <value>导出服务器</value>
+    <value>导出主机</value>
   </data>
   <data name="contextServer.Size" type="System.Drawing.Size, System.Drawing">
     <value>158, 120</value>
@@ -240,5 +240,15 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>服务器管理</value>
+  </data>
+  <data name="delete_group_msg_context" xml:space="preserve">
+    <value>是否删除组?
+如果删除组，该组下的主机将从主机组中移除(但不会删除该主机)。</value>
+  </data>
+  <data name="delete_group_msg_header" xml:space="preserve">
+    <value>组</value>
+  </data>
+  <data name="tree_new_group" xml:space="preserve">
+    <value>新建组</value>
   </data>
 </root>

@@ -864,4 +864,22 @@
   <data name="SFTPSettings" xml:space="preserve">
     <value>SFTP Settings</value>
   </data>
+  <data name="ftp_connect_mode_1" xml:space="preserve">
+    <value>Passive - Use routing info - Recommended</value>
+  </data>
+  <data name="ftp_connect_mode_2" xml:space="preserve">
+    <value>Passive - Ignore routing info</value>
+  </data>
+  <data name="ftp_connect_mode_3" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="msg_host" xml:space="preserve">
+    <value>Host</value>
+  </data>
+  <data name="msg_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="msg_not_empty" xml:space="preserve">
+    <value>must not be empty</value>
+  </data>
 </root>

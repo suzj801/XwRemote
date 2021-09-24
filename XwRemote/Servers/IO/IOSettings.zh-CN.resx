@@ -147,6 +147,15 @@
   <data name="FTPSettings" xml:space="preserve">
     <value>FTP设置</value>
   </data>
+  <data name="ftp_connect_mode_1" xml:space="preserve">
+    <value>被动(使用路由，建议此模式)</value>
+  </data>
+  <data name="ftp_connect_mode_2" xml:space="preserve">
+    <value>被动(忽略路由)</value>
+  </data>
+  <data name="ftp_connect_mode_3" xml:space="preserve">
+    <value>主动</value>
+  </data>
   <data name="HostLabel.Text" xml:space="preserve">
     <value>主机:</value>
   </data>
@@ -164,6 +173,15 @@
   </data>
   <data name="label9.Text" xml:space="preserve">
     <value>备注:</value>
+  </data>
+  <data name="msg_host" xml:space="preserve">
+    <value>主机</value>
+  </data>
+  <data name="msg_name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="msg_not_empty" xml:space="preserve">
+    <value>不能留空</value>
   </data>
   <data name="PasswordLabel.Text" xml:space="preserve">
     <value>密码:</value>

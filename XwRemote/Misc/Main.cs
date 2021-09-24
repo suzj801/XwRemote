@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Net;
+using System.Resources;
 using System.Security.Permissions;
 using System.Text.RegularExpressions;
 using System.Threading;
@@ -27,6 +28,8 @@ namespace XwRemote
         private System.Windows.Forms.Timer timerCloseTab = new System.Windows.Forms.Timer();
         private bool retryClose = false;
         private TabPageEx tryCloseTab = null;
+
+        private ResourceManager rm = new ResourceManager(typeof(Main));
 
         //*************************************************************************************************************
         public Main()
@@ -114,8 +117,8 @@ namespace XwRemote
             {
                 if (ServerTabs.TabPages.Count > 0)
                 {
-                    if (MessageBox.Show("You have open connections. \r\nAre you sure you want to close application?", 
-                        "Close?",
+                    if (MessageBox.Show(rm.GetString("msg_close_with_connections_context"),
+                        rm.GetString("msg_close_with_connections_header"), 
                         MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.No)
                     {
                         e.Cancel = true;
@@ -205,7 +208,8 @@ namespace XwRemote
 
             if (tryCloseTab == null) //first try to close?
             {
-                if (MessageBox.Show("You are about to close a server tab?", "Close?", 
+                if (MessageBox.Show(rm.GetString("msg_close_tab_context"),
+                    rm.GetString("msg_close_tab_header"), 
                     MessageBoxButtons.YesNo, 
                     MessageBoxIcon.Warning) == System.Windows.Forms.DialogResult.No)
                 {
@@ -261,7 +265,8 @@ namespace XwRemote
                     {
                         param.BeginInvoke((MethodInvoker)delegate
                         {
-                            param.Toolbar_Updates.Text = "New updates available";
+                            ResourceManager local_rm = new ResourceManager(typeof(VNCSettings));
+                            param.Toolbar_Updates.Text = local_rm.GetString("msg_has_new_update");
                             param.Toolbar_Updates.Enabled = true;
                             param.Toolbar_Updates.Image = Resources.accept;
                         });
@@ -301,8 +306,8 @@ namespace XwRemote
         {
             if (ServerTabs.TabPages.Count > 0)
             {
-                MessageBox.Show("You have open connections. \r\nClose server connections before update XwRemote", 
-                    "Connections...", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(rm.GetString("msg_update_with_connections_context"),
+                rm.GetString("msg_update_with_connections_header"), MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
 
@@ -331,7 +336,7 @@ namespace XwRemote
             if (Toolbar_Favorites.DropDownItems.Count == 0)
             {
                 ToolStripItem item = Toolbar_Favorites.DropDownItems.Add(
-                    "no favorites: mark servers as favorites on the server settings window", null);
+                    rm.GetString("msg_no_favorates"), null);
                 item.Enabled = false;
             }
         }

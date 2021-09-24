@@ -118,265 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1007, 643</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;numericMaxThreads.Name" xml:space="preserve">
-    <value>numericMaxThreads</value>
-  </data>
-  <data name="textTcpPorts.Location" type="System.Drawing.Point, System.Drawing">
-    <value>511, 54</value>
-  </data>
-  <data name="&gt;&gt;textTcpPorts.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="buttonStartARP.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="&gt;&gt;numericTestTimeout.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;checkNetBios.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;ipAddressControlFrom.Type" xml:space="preserve">
-    <value>IPAddressControlLib.IPAddressControl, IPAddressControlLib, Version=1.1.6934.25695, Culture=neutral, PublicKeyToken=55e96405d8fd6d61</value>
-  </data>
-  <data name="textTcpPorts.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;listViewHosts.Name" xml:space="preserve">
-    <value>listViewHosts</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;buttonStartARP.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;numericMaxThreads.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;checkDNS.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;numericTestTimeout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="dialogHeader1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1007, 46</value>
-  </data>
-  <data name="&gt;&gt;buttonStartARP.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="ipAddressControlFrom.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;progressBar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkDNS.Name" xml:space="preserve">
-    <value>checkDNS</value>
-  </data>
-  <data name="numericTestTimeout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>202, 21</value>
-  </data>
-  <data name="checkTcpPorts.Location" type="System.Drawing.Point, System.Drawing">
-    <value>421, 56</value>
-  </data>
-  <data name="&gt;&gt;numericMaxThreads.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonStartARP.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;dialogHeader1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Scanner</value>
-  </data>
-  <data name="&gt;&gt;checkNetBios.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="ipAddressControlTo.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>96, 21</value>
-  </data>
-  <data name="&gt;&gt;ipAddressControlTo.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;buttonStartNoARP.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="buttonStartNoARP.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="&gt;&gt;buttonStartNoARP.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>418, 81</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="&gt;&gt;Pump.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonStartNoARP.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;ipAddressControlFrom.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;buttonStartARP.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;numericTestTimeout.Name" xml:space="preserve">
-    <value>numericTestTimeout</value>
-  </data>
-  <data name="label4.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 12</value>
-  </data>
-  <data name="ipAddressControlFrom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>95, 54</value>
-  </data>
-  <data name="&gt;&gt;ipAddressControlTo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="progressBar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="checkDNS.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;dialogHeader1.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="checkDNS.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;textTcpPorts.Name" xml:space="preserve">
-    <value>textTcpPorts</value>
-  </data>
-  <data name="&gt;&gt;checkNetBios.Name" xml:space="preserve">
-    <value>checkNetBios</value>
-  </data>
-  <data name="&gt;&gt;checkBoxHideDead.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;checkTcpPorts.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;numericTestTimeout.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="label3.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>XwRemote Scanner</value>
-  </data>
-  <data name="checkTcpPorts.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 16</value>
-  </data>
-  <data name="checkNetBios.Size" type="System.Drawing.Size, System.Drawing">
-    <value>102, 16</value>
-  </data>
-  <data name="checkBoxHideDead.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 12</value>
-  </data>
-  <data name="&gt;&gt;listViewHosts.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="listViewHosts.Size" type="System.Drawing.Size, System.Drawing">
-    <value>983, 514</value>
-  </data>
-  <data name="&gt;&gt;checkBoxHideDead.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonStartARP.Text" xml:space="preserve">
-    <value>Start</value>
-  </data>
-  <data name="buttonStartARP.Size" type="System.Drawing.Size, System.Drawing">
-    <value>276, 20</value>
-  </data>
-  <data name="&gt;&gt;ipAddressControlTo.Name" xml:space="preserve">
-    <value>ipAddressControlTo</value>
-  </data>
-  <data name="checkDNS.Location" type="System.Drawing.Point, System.Drawing">
-    <value>311, 57</value>
-  </data>
-  <data name="&gt;&gt;ipAddressControlFrom.Name" xml:space="preserve">
-    <value>ipAddressControlFrom</value>
-  </data>
-  <data name="&gt;&gt;dialogHeader1.Type" xml:space="preserve">
-    <value>XwMaxLib.UI.DialogHeader, XwMaxLib, Version=5.0.0.1, Culture=neutral, PublicKeyToken=d5cba97d4ac1f01c</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="checkBoxHideDead.Size" type="System.Drawing.Size, System.Drawing">
-    <value>102, 16</value>
-  </data>
-  <data name="&gt;&gt;ipAddressControlFrom.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="checkNetBios.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="buttonStartNoARP.Text" xml:space="preserve">
-    <value>Start</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;checkNetBios.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>1007, 50</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3080,262 +2823,70 @@
         AAAAAAAAAAAAAAAAAAAAAQAAAAEAAIABAADgAwAA/AMAAP+HAAD//wAA
 </value>
   </data>
-  <data name="progressBar.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="ipAddressControlTo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>96, 21</value>
-  </data>
-  <data name="&gt;&gt;textTcpPorts.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="listViewHosts.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>17, 12</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 12</value>
-  </data>
-  <data name="&gt;&gt;buttonStartNoARP.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonStartNoARP.Name" xml:space="preserve">
-    <value>buttonStartNoARP</value>
-  </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;textTcpPorts.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 81</value>
-  </data>
-  <data name="&gt;&gt;checkBoxHideDead.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ipAddressControlFrom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>96, 21</value>
-  </data>
-  <data name="progressBar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>983, 10</value>
-  </data>
-  <data name="&gt;&gt;dialogHeader1.Name" xml:space="preserve">
-    <value>dialogHeader1</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 57</value>
-  </data>
-  <data name="&gt;&gt;checkTcpPorts.Name" xml:space="preserve">
-    <value>checkTcpPorts</value>
-  </data>
-  <data name="progressBar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 103</value>
-  </data>
-  <data name="dialogHeader1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>188, 57</value>
-  </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkDNS.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 16</value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="numericTestTimeout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>511, 79</value>
-  </data>
-  <data name="&gt;&gt;checkTcpPorts.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="listViewHosts.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 119</value>
-  </data>
-  <data name="numericMaxThreads.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="numericTestTimeout.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;checkDNS.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="checkNetBios.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="numericMaxThreads.Location" type="System.Drawing.Point, System.Drawing">
-    <value>95, 79</value>
-  </data>
-  <data name="ipAddressControlFrom.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>96, 21</value>
-  </data>
-  <data name="&gt;&gt;progressBar.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;Pump.Name" xml:space="preserve">
-    <value>Pump</value>
-  </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="checkNetBios.Location" type="System.Drawing.Point, System.Drawing">
-    <value>311, 80</value>
-  </data>
-  <data name="ipAddressControlTo.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;numericMaxThreads.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkDNS.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonStartARP.Name" xml:space="preserve">
-    <value>buttonStartARP</value>
-  </data>
-  <data name="&gt;&gt;checkTcpPorts.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 12</value>
-  </data>
-  <data name="checkBoxHideDead.Location" type="System.Drawing.Point, System.Drawing">
-    <value>210, 80</value>
-  </data>
-  <data name="ipAddressControlTo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>210, 54</value>
-  </data>
-  <data name="&gt;&gt;ipAddressControlTo.Type" xml:space="preserve">
-    <value>IPAddressControlLib.IPAddressControl, IPAddressControlLib, Version=1.1.6934.25695, Culture=neutral, PublicKeyToken=55e96405d8fd6d61</value>
-  </data>
-  <data name="buttonStartNoARP.Location" type="System.Drawing.Point, System.Drawing">
-    <value>719, 78</value>
-  </data>
-  <data name="&gt;&gt;checkBoxHideDead.Name" xml:space="preserve">
-    <value>checkBoxHideDead</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="checkBoxHideDead.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;listViewHosts.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;listViewHosts.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
-  </data>
-  <data name="textTcpPorts.Size" type="System.Drawing.Size, System.Drawing">
-    <value>202, 21</value>
-  </data>
-  <data name="buttonStartNoARP.Size" type="System.Drawing.Size, System.Drawing">
-    <value>276, 20</value>
-  </data>
-  <data name="listViewHosts.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="dialogHeader1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="buttonStartARP.Location" type="System.Drawing.Point, System.Drawing">
-    <value>719, 54</value>
-  </data>
-  <data name="&gt;&gt;progressBar.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="dialogHeader1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="checkTcpPorts.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="numericMaxThreads.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 21</value>
-  </data>
-  <data name="&gt;&gt;progressBar.Name" xml:space="preserve">
-    <value>progressBar</value>
-  </data>
-  <data name="checkTcpPorts.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
-  </data>
-  <data name="Pump.TrayLocation" type="System.Drawing.Point, System.Drawing">
-    <value>17, 17</value>
-  </data>
-  <data name="$this.Localizable" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>XwRemote扫描器</value>
   </data>
   <data name="btn_cancel" xml:space="preserve">
-    <value>Cancel</value>
+    <value>取消</value>
   </data>
   <data name="btn_start_for_lan" xml:space="preserve">
-    <value>Start for LAN (use ARP, faster)</value>
+    <value>扫描LAN (使用ARP，速度较快)</value>
   </data>
   <data name="btn_start_for_wan" xml:space="preserve">
-    <value>Start for WAN (no ARP, slower)</value>
+    <value>扫描WAN(不使用ARP，速度较慢)</value>
   </data>
-  <data name="checkBoxHideDead.Text1" xml:space="preserve">
-    <value>Hide dead IPs</value>
+  <data name="checkBoxHideDead.Text" xml:space="preserve">
+    <value>隐藏不通的IP</value>
   </data>
-  <data name="checkDNS.Text1" xml:space="preserve">
-    <value>Check DNS</value>
+  <data name="checkDNS.Text" xml:space="preserve">
+    <value>检查DNS</value>
   </data>
-  <data name="checkNetBios.Text1" xml:space="preserve">
-    <value>Check Netbios</value>
+  <data name="checkNetBios.Text" xml:space="preserve">
+    <value>检查Netbios</value>
   </data>
-  <data name="checkTcpPorts.Text1" xml:space="preserve">
-    <value>Check Ports</value>
+  <data name="checkTcpPorts.Text" xml:space="preserve">
+    <value>检查端口</value>
   </data>
-  <data name="ipAddressControlFrom.Text1" xml:space="preserve">
+  <data name="dialogHeader1.HeaderDescription" xml:space="preserve">
+    <value>找出网络地址中可以连接的端口</value>
+  </data>
+  <data name="dialogHeader1.HeaderTitle" xml:space="preserve">
+    <value>扫描网络</value>
+  </data>
+  <data name="ipAddressControlFrom.Text" xml:space="preserve">
     <value>...</value>
   </data>
-  <data name="ipAddressControlTo.Text1" xml:space="preserve">
+  <data name="ipAddressControlTo.Text" xml:space="preserve">
     <value>...</value>
   </data>
   <data name="item_not_tested" xml:space="preserve">
-    <value>Not Tested</value>
+    <value>还未测试</value>
   </data>
   <data name="item_this_machine" xml:space="preserve">
-    <value>This Machine</value>
+    <value>此机器</value>
   </data>
-  <data name="label1.Text1" xml:space="preserve">
-    <value>IP range from</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>IP范围从</value>
   </data>
-  <data name="label2.Text1" xml:space="preserve">
-    <value>to</value>
+  <data name="label2.Text" xml:space="preserve">
+    <value>到</value>
   </data>
-  <data name="label3.Text1" xml:space="preserve">
-    <value>Test Timeout (ms)</value>
+  <data name="label3.Text" xml:space="preserve">
+    <value>检测超时(ms)</value>
   </data>
-  <data name="label4.Text1" xml:space="preserve">
-    <value>Max Threads</value>
+  <data name="label4.Text" xml:space="preserve">
+    <value>最大线程</value>
   </data>
   <data name="msg_download_oui" xml:space="preserve">
-    <value>We need to download the MAC address info (one time)</value>
+    <value>第一次运行需要先下载网卡地址信息(只会运行一次)</value>
   </data>
   <data name="msg_download_oui_failed_context" xml:space="preserve">
-    <value>Unable to download networkcard information.</value>
+    <value>下载网卡信息出错。</value>
   </data>
   <data name="msg_download_oui_failed_header" xml:space="preserve">
-    <value>NIC info</value>
+    <value>网卡地址信息下载</value>
   </data>
   <data name="msg_ip_range_error" xml:space="preserve">
-    <value>to Address must be higher than from Address</value>
+    <value>结束IP必须大于起始IP</value>
   </data>
 </root>

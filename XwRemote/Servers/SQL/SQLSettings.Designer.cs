@@ -56,15 +56,15 @@
             this.SuspendLayout();
             // 
             // dialogHeader1
-            // 
+            //
+            this.dialogHeader1.HeaderDescription = "Connecting settings for SQL";
+            this.dialogHeader1.HeaderTitle = "SQL  *** Highly experimental  ***";
             resources.ApplyResources(this.dialogHeader1, "dialogHeader1");
             this.dialogHeader1.Gradient1 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.dialogHeader1.Gradient2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.dialogHeader1.Gradient3 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.dialogHeader1.Gradient4 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.dialogHeader1.HeaderDescription = "Connecting settings for SQL";
             this.dialogHeader1.HeaderImage = global::XwRemote.Properties.Resources.database;
-            this.dialogHeader1.HeaderTitle = "SQL  *** Highly experimental  ***";
             this.dialogHeader1.Name = "dialogHeader1";
             // 
             // dividerPanel1

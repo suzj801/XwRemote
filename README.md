@@ -1,8 +1,9 @@
+
 # XwRemote
 
-How do i eliminate the need for many applications and the consequent open and close merry-go-round?
+本软件是基于![XwRemote](https://github.com/maxsnts/XwRemote)的汉化版
 
-##### For now it supports:
+##### 主要功能:
  - RDP 
  - SSH
  - FTP 
@@ -13,13 +14,10 @@ How do i eliminate the need for many applications and the consequent open and cl
  - IE(!)
  - Master password
 
-The functionality is not the most complete but it will increase over time.
-There is always a balance between "complete" and "simple" so...
-
-I will try to include new features as time allows.
-
-Anyway, if there is anything that this could do better, let me know!
-
+ #### 隐藏/禁用了以下功能:
+ - 赞助(如果喜欢本软件请在原作者项目赞助)
+ - 升级(目前升级连接指向原作者项目, 原项目不支持多语言)
+ - 帮助(如有问题请在Issues中寻求帮助)
 
 ##### Server Manager 
 ![Connection Manager](Images/ServerManager.png)
@@ -39,6 +37,3 @@ Anyway, if there is anything that this could do better, let me know!
 
 ##### Remote SSH session
 ![Connection Manager](Images/SSH.png)
-
-## In case you are feeling generous  
-[![PayPal donate button](https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_pp_142x27.png)](https://www.paypal.me/maxsnts)

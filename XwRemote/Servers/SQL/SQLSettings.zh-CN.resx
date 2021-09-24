@@ -129,6 +129,12 @@
   <data name="DefaultPort.Text" xml:space="preserve">
     <value>默认</value>
   </data>
+  <data name="dialogHeader1.HeaderDescription" xml:space="preserve">
+    <value>SQL连接设置</value>
+  </data>
+  <data name="dialogHeader1.HeaderTitle" xml:space="preserve">
+    <value>SQL连接(体验版)</value>
+  </data>
   <data name="IsFavorite.Text" xml:space="preserve">
     <value>加入收藏</value>
   </data>
@@ -155,5 +161,14 @@
   </data>
   <data name="label9.Text" xml:space="preserve">
     <value>备注:</value>
+  </data>
+  <data name="msg_host" xml:space="preserve">
+    <value>主机</value>
+  </data>
+  <data name="msg_name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="msg_not_empty" xml:space="preserve">
+    <value>不能留空</value>
   </data>
 </root>

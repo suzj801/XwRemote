@@ -16,6 +16,19 @@
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>Resources\XwRemote.ico</ApplicationIcon>
@@ -273,17 +286,50 @@
     <EmbeddedResource Include="Misc\AskPassword.resx">
       <DependentUpon>AskPassword.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Misc\AskPassword.zh-CN.resx">
+      <DependentUpon>AskPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Misc\GlobalSettings.zh-CN.resx">
+      <DependentUpon>GlobalSettings.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Misc\InOut.resx">
       <DependentUpon>InOut.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Misc\InOut.zh-CN.resx">
+      <DependentUpon>InOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Misc\Main.en-GB.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Misc\Main.zh-CN.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Misc\Scanner.resx">
+      <DependentUpon>Scanner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Misc\Scanner.zh-CN.resx">
       <DependentUpon>Scanner.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Misc\SendError.resx">
       <DependentUpon>SendError.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Misc\ServerManager.zh-CN.resx">
+      <DependentUpon>ServerManager.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Misc\Stuff.resx">
       <DependentUpon>Stuff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servers\IE\IESettings.zh-CN.resx">
+      <DependentUpon>IESettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servers\IO\Exists.zh-CN.resx">
+      <DependentUpon>Exists.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servers\IO\IOSettings.zh-CN.resx">
+      <DependentUpon>IOSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servers\RDP\RDPSettings.zh-CN.resx">
+      <DependentUpon>RDPSettings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Servers\SQL\SQLForm.resx">
       <DependentUpon>SQLForm.cs</DependentUpon>
@@ -321,8 +367,14 @@
     <EmbeddedResource Include="Servers\RDP\RDPForm.resx">
       <DependentUpon>RDPForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Servers\SQL\SQLSettings.zh-CN.resx">
+      <DependentUpon>SQLSettings.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Servers\SSH\SSHForm.resx">
       <DependentUpon>SSHForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servers\SSH\SSHSettings.zh-CN.resx">
+      <DependentUpon>SSHSettings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Servers\VNC\VNCForm.resx">
       <DependentUpon>VNCForm.cs</DependentUpon>
@@ -340,6 +392,9 @@
       <DependentUpon>VNCSettings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Credits.rtf" />
+    <EmbeddedResource Include="Servers\VNC\VNCSettings.zh-CN.resx">
+      <DependentUpon>VNCSettings.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -499,7 +554,18 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

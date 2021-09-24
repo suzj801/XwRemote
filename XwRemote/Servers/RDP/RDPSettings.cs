@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Drawing;
+using System.Resources;
 using System.Windows.Forms;
 using XwMaxLib.Extensions;
 using XwMaxLib.Extentions;
@@ -11,7 +12,8 @@ namespace XwRemote.Servers
     public partial class RDPSettings : Form
     {
         private Server server = null;
-        
+        private ResourceManager rm = new ResourceManager(typeof(RDPSettings));
+
         //*************************************************************************************************************
         public RDPSettings(Server server)
         {
@@ -79,13 +81,13 @@ namespace XwRemote.Servers
         {
             if (NameBox.Text.Trim() == string.Empty)
             {
-                NameBox.ShowBalloon(ToolTipIcon.Warning, "Name", "must not be empty");
+                NameBox.ShowBalloon(ToolTipIcon.Warning, rm.GetString("msg_name"), rm.GetString("msg_not_empty"));
                 return;
             }
 
             if (HostBox.Text.Trim() == string.Empty)
             {
-                HostBox.ShowBalloon(ToolTipIcon.Warning, "Host", "must not be empty");
+                HostBox.ShowBalloon(ToolTipIcon.Warning, rm.GetString("msg_host"), rm.GetString("msg_not_empty"));
                 return;
             }
             
@@ -135,11 +137,11 @@ namespace XwRemote.Servers
         private void LoadColor(int bit)
         {
             ColorCombo.Items.Clear();
-            ColorCombo.Items.Add(new ListItem(8, "256 Colors (8 bit)"));
-            ColorCombo.Items.Add(new ListItem(15, "Medium Color (15 bit)"));
-            ColorCombo.Items.Add(new ListItem(16, "High Color (16 bit)"));
-            ColorCombo.Items.Add(new ListItem(24, "True Color (24 bit)"));
-            ColorCombo.Items.Add(new ListItem(32, "Highest Color (32 bit)"));
+            ColorCombo.Items.Add(new ListItem(8, rm.GetString("rdp_color_item_256")));
+            ColorCombo.Items.Add(new ListItem(15, rm.GetString("rdp_color_item_medium")));
+            ColorCombo.Items.Add(new ListItem(16, rm.GetString("rdp_color_item_high")));
+            ColorCombo.Items.Add(new ListItem(24, rm.GetString("rdp_color_item_true")));
+            ColorCombo.Items.Add(new ListItem(32, rm.GetString("rdp_color_item_highest")));
 
             switch (bit)
             {
@@ -168,7 +170,7 @@ namespace XwRemote.Servers
         private void LoadSize(int X, int Y)
         {
             SizeCombo.Items.Clear();
-            SizeCombo.Items.Add(new ListItem(0, "Fit to window"));
+            SizeCombo.Items.Add(new ListItem(0, rm.GetString("rdp_fix_to_windows")));
             SizeCombo.Items.Add(new ListItem(1, "800x600"));
             SizeCombo.Items.Add(new ListItem(2, "1024x768"));
             SizeCombo.Items.Add(new ListItem(3, "1280x1024"));

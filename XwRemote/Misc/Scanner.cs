@@ -4,6 +4,7 @@ using System.IO;
 using System.Net;
 using System.Net.NetworkInformation;
 using System.Net.Sockets;
+using System.Resources;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -29,6 +30,7 @@ namespace XwRemote.Misc
         int curRunningTasks = 0;
         bool useARP = false;
         string localIps = "";
+        private ResourceManager rm = new ResourceManager(typeof(Scanner));
 
         //*************************************************************************************************************
         public Scanner()
@@ -125,8 +127,10 @@ namespace XwRemote.Misc
             buttonStartARP.Text = $"{state.ToString()} ({curRunningTasks})";
             buttonStartNoARP.Text = $"{state.ToString()} ({curRunningTasks})";
 #else
-            buttonStartARP.Text = (state == State.Stopped) ? "Start for LAN (use ARP, faster)" : $"Cancel ({curRunningTasks})";
-            buttonStartNoARP.Text = (state == State.Stopped) ? "Start for WAN (no ARP, slower)" : $"Cancel ({curRunningTasks})";
+            buttonStartARP.Text = (state == State.Stopped) ? rm.GetString("btn_start_for_lan") : 
+                $"{rm.GetString("btn_cancel")} ({curRunningTasks})";
+            buttonStartNoARP.Text = (state == State.Stopped) ? rm.GetString("btn_start_for_wan") : 
+                $"{rm.GetString("btn_cancel")} ({curRunningTasks})";
 #endif
         }
 
@@ -160,7 +164,7 @@ namespace XwRemote.Misc
             {
                 if (!File.Exists("oui.txt"))
                 {
-                    MessageBox.Show("We need to download the MAC address info (one time)");
+                    MessageBox.Show(rm.GetString("msg_download_oui"));
 
                     using (WebClient client = new WebClient())
                     {
@@ -176,7 +180,8 @@ namespace XwRemote.Misc
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Unable to download networkcard information.\n\n{ex.Message}", "NIC info");
+                MessageBox.Show($"{rm.GetString("msg_download_oui_failed_context")}\n\n{ex.Message}",
+                    rm.GetString("msg_download_oui_failed_header"));
             }
         }
 
@@ -195,7 +200,7 @@ namespace XwRemote.Misc
 
                 if (fromIP.Address > toIP.Address)
                 {
-                    MessageBox.Show("to Address must be higher than from Address");
+                    MessageBox.Show(rm.GetString("msg_ip_range_error"));
                     return;
                 }
 
@@ -308,8 +313,8 @@ namespace XwRemote.Misc
                         item.ImageIndex = 8;
                         item.SubItems[1].Text = GetReverseDNS(ip);
                         item.SubItems[2].Text = GetNetbiosName(ip);
-                        item.SubItems[3].Text = "This Machine";
-                        item.SubItems[4].Text = "Not Tested";
+                        item.SubItems[3].Text = rm.GetString("item_this_machine");
+                        item.SubItems[4].Text = rm.GetString("item_not_tested");
                         item.SubItems[5].Text = "";
                         item.SubItems[6].Text = "";
                         item.EnsureVisible();
@@ -378,7 +383,7 @@ namespace XwRemote.Misc
                         item.ImageIndex = image;
                         item.SubItems[1].Text = dns;
                         item.SubItems[2].Text = netbios;
-                        item.SubItems[3].Text = ping ? "YES" : "no";
+                        item.SubItems[3].Text = ping ? "YES" : "NO";
                         item.SubItems[4].Text = foundports;
                         item.SubItems[5].Text = mac;
                         item.SubItems[6].Text = vendor;

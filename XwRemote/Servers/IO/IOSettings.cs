@@ -13,6 +13,7 @@ namespace XwRemote.Settings
     public partial class IOSettings : Form
     {
         private Server server = null;
+        private ResourceManager rm = new ResourceManager(typeof(IOSettings));
 
         //*************************************************************************************************************
         public IOSettings(Server server)
@@ -25,7 +26,6 @@ namespace XwRemote.Settings
         private void OnLoad(object sender, EventArgs e)
         {
             LoadFtpDataType(server.FtpDataType);
-            ResourceManager rm = new ResourceManager(typeof(IOSettings));
 
             NameBox.Text = server.Name;
             HostBox.Text = server.Host;
@@ -128,9 +128,9 @@ namespace XwRemote.Settings
         private void LoadFtpDataType(int type)
         {
             FtpDataType.Items.Clear();
-            FtpDataType.Items.Add(new ListItem((int)FtpDataConnectionType.PASV, "Passive - Use routing info - Recommended"));
-            FtpDataType.Items.Add(new ListItem((int)FtpDataConnectionType.PASVEX, "Passive - Ignore routing info"));
-            FtpDataType.Items.Add(new ListItem((int)FtpDataConnectionType.AutoActive, "Active"));
+            FtpDataType.Items.Add(new ListItem((int)FtpDataConnectionType.PASV, rm.GetString("ftp_connect_mode_1")));
+            FtpDataType.Items.Add(new ListItem((int)FtpDataConnectionType.PASVEX, rm.GetString("ftp_connect_mode_2")));
+            FtpDataType.Items.Add(new ListItem((int)FtpDataConnectionType.AutoActive, rm.GetString("ftp_connect_mode_3")));
 
             if (type == 0)
                 type = 1;
@@ -154,7 +154,7 @@ namespace XwRemote.Settings
         {
             if (NameBox.Text.Trim() == string.Empty)
             {
-                HostBox.ShowBalloon(ToolTipIcon.Warning, "Name", "must not be empty");
+                HostBox.ShowBalloon(ToolTipIcon.Warning, rm.GetString("msg_name"), rm.GetString("msg_not_empty"));
                 return;
             }
 

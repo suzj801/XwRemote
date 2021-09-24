@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Drawing;
+using System.Resources;
 using System.Windows.Forms;
 using XwMaxLib.Extensions;
 using XwRemote.Misc;
@@ -13,6 +14,7 @@ namespace XwRemote
         public Server ConnectToThisServer = null;
         private string tmpSelectedNode = null;
         private Main mainForm = null;
+        private ResourceManager rm = new ResourceManager(typeof(ServerManager));
 
         //*************************************************************************************************************
         public ServerManager(Main main)
@@ -386,7 +388,7 @@ namespace XwRemote
             treeServers.SelectedNode = null;
             tmpSelectedNode = null;
             treeServers.LabelEdit = true;
-            treeServers.Nodes.Add("New Group").BeginEdit();
+            treeServers.Nodes.Add(rm.GetString("tree_new_group")).BeginEdit();
         }
 
         //*************************************************************************************************************
@@ -394,7 +396,7 @@ namespace XwRemote
         {
             if (treeServers.SelectedNode?.Tag is Group)
             {
-                if (MessageBox.Show("Delete Group?\n\nServers will remain but be ungrouped'", "Group", 
+                if (MessageBox.Show(rm.GetString("delete_group_msg_context"), rm.GetString("delete_group_msg_header"), 
                     MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.No)
                     return;
 
